@@ -14,5 +14,5 @@ public:
 	bool Collision(string key, Collider* collider);
 
 public:
-	void Fire(const Vector2& pos, const Vector2& direction);
+	void Fire(const Vector2& pos, const Vector2& direction, bool isEnemy = false);
 };

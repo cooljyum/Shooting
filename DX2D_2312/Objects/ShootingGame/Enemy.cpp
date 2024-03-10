@@ -24,35 +24,61 @@ Enemy::~Enemy()
 
 void Enemy::Update()
 {
-	if (!IsActive()) return;
+    if (!IsActive()) return;
 
-	if(!type)
-		Rotate(rotSpeed * DELTA);
-	Vector2 direction = target->GetGlobalPosition() - localPosition;
-	Translate(direction.Normalized() * moveSpeed * DELTA);
-
-	Quad::Update();
-	collider->UpdateWorld();
+    Quad::Update();
+    collider->UpdateWorld();
+    Plane* plane = (Plane*)target;
+    Vector2 direction = target->GetGlobalPosition() - localPosition;
 
 
-	Plane* plane = (Plane*)target;
-	if (collider->IsCollision(plane->GetCollider()))
-	{
-		SetActive(false);
-		
-		//ItemManager::Get()->Spawn(GetGlobalPosition(), GetRight());
-		Plane::health--;
-	}
+    if (!type)
+    {
+        Rotate(rotSpeed * DELTA);
+        Translate(direction.Normalized() * moveSpeed * DELTA);
+    }
+    else
+    {
+        if (collider->IsCollision(plane->GetReactionCollider()))
+        {
+            playTime += DELTA;
+            if (playTime >= FIRE_INTERVAL)
+            {
+                playTime -= FIRE_INTERVAL;
+                BulletManager::Get()->Fire(this->GetGlobalPosition(), direction.Normalized(), true);
+            }
+        }
+        else
+            Translate(direction.Normalized() * moveSpeed * DELTA);
 
-	if (BulletManager::Get()->Collision("PlayerBullet", collider))
-	{
-		SetActive(false);
-		ItemManager::Get()->Spawn(GetGlobalPosition(), GetRight());
-	}
+        if (BulletManager::Get()->Collision("EnemyBullet", plane->GetCollider()))
+            Plane::health--;
+    }
+
+    if (collider->IsCollision(plane->GetCollider()))
+    {
+        Die();
+        Plane::health--;
+    }
+
+    if (collider->IsCollision(plane->GetSkillCollider()))
+        Die();
+
+    if (BulletManager::Get()->Collision("PlayerBullet", collider))
+        Die();
+    
 }
 
 void Enemy::Render()
 {
 	Quad::Render();
 	collider->Render();
+}
+
+void Enemy::Die()
+{
+    SetActive(false);
+    Plane::score++;
+    if (Random(0, 2))
+        ItemManager::Get()->Spawn(GetGlobalPosition(), GetRight());
 }

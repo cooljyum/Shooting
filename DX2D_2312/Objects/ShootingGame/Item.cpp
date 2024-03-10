@@ -35,6 +35,9 @@ void Item::Update()
 
 	UpdateWorld();
 	collider->UpdateWorld();
+
+
+
 }
 
 void Item::Render()

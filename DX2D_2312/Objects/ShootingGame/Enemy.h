@@ -2,6 +2,9 @@
 
 class Enemy : public Quad
 {
+private:
+	const float FIRE_INTERVAL = 1.0f;
+
 public: 
 	enum Type
 	{
@@ -20,10 +23,14 @@ public:
 
 	void SetTarget(Transform* transform) { target = transform; }
 	void SetType(Type type) { this->type = type; }
+private:
+	void Die();
 
 private:
 	float moveSpeed = 50.0f;
 	float rotSpeed = 10.0f;
+
+	float playTime = 0.0f;
 
 	CircleCollider* collider;
 

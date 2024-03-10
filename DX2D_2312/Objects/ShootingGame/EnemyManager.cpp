@@ -2,8 +2,8 @@
 
 EnemyManager::EnemyManager()
 {
-	CreateObjects("CloseRangeEnemy", 50,  L"Resources/Textures/Shooting2/enemy_.png");
-	CreateObjects("DistantRangeEnemy", 50, L"Resources/Textures/Shooting2/enemy.png");
+	CreateObjects("CloseRangeEnemy", 50,  L"Resources/Textures/Shooting2/CloseRangeEnemy.png");
+	CreateObjects("DistantRangeEnemy", 50, L"Resources/Textures/Shooting2/DistantRangeEnemy.png");
 	
 }
 
@@ -18,10 +18,10 @@ void EnemyManager::Update()
 		Enemy* enemy;
 
 		if(Random(0, 2))
-
 			enemy = Pop("CloseRangeEnemy");
 		else
 			enemy = Pop("DistantRangeEnemy");
+
 		enemy->SetActive(true);
 		enemy->SetLocalPosition(GetRandomPos());
 		enemy->Update();
@@ -35,6 +35,7 @@ void EnemyManager::SetTarget(Transform* transform)
 		((Enemy*)enemy)->SetTarget(transform);
 		((Enemy*)enemy)->SetType(Enemy::CLOSE);
 	}
+
 	for (GameObject* enemy : totalObject["DistantRangeEnemy"])
 	{
 		((Enemy*)enemy)->SetTarget(transform);

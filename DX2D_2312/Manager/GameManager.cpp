@@ -40,8 +40,17 @@ void GameManager::Render()
 	string fps = "FPS : " + to_string(Timer::Get()->GetFPS());
 	ImGui::Text(fps.c_str());
 
-	string playerHealth = "Player Health : " + to_string(Plane::health);
-	ImGui::Text(playerHealth.c_str());
+	string playerHealthTxt = "Player Health : " + to_string(Plane::health);
+	ImGui::Text(playerHealthTxt.c_str());
+
+	string gameScoreTxt = "Game Score : " + to_string(Plane::score);
+	ImGui::Text(gameScoreTxt.c_str());
+
+	string playerItemTxt = "Player ItemSlot\n[Magnet(" + to_string(Plane::itemsSlot[0]) + "), Bomb(" + to_string(Plane::itemsSlot[1]) + ")]";
+	ImGui::Text(playerItemTxt.c_str());
+
+	string playTxt = "\n\n W,S : Move \n A,D : Rotate \n Mouse Click : Attack \n M : MagnetUse \n B : BombUse";
+	ImGui::Text(playTxt.c_str());
 
 	ObjectManager::Get()->Render();
 	SCENE->Render();	

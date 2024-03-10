@@ -19,6 +19,7 @@ public:
 
 private:
 	float speed = 300.0f;
+
 	Vector2 velocity;
 
 	CircleCollider* collider;

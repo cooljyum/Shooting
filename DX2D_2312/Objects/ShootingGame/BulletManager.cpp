@@ -3,6 +3,7 @@
 BulletManager::BulletManager()
 {
 	CreateObjects("PlayerBullet", POOL_SIZE);
+	CreateObjects("EnemyBullet", POOL_SIZE);
 }
 
 BulletManager::~BulletManager()
@@ -23,7 +24,10 @@ bool BulletManager::Collision(string key, Collider* collider)
 	return false;
 }
 
-void BulletManager::Fire(const Vector2& pos, const Vector2& direction)
+void BulletManager::Fire(const Vector2& pos, const Vector2& direction, bool isEnemy)
 {
-	Pop("PlayerBullet")->Fire(pos, direction);
+	if(isEnemy)
+		Pop("EnemyBullet")->Fire(pos, direction);
+	else
+		Pop("PlayerBullet")->Fire(pos, direction);
 }
