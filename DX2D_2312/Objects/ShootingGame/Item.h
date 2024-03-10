@@ -1,19 +1,19 @@
 #pragma once
 
-class Bullet : public Quad
+class Item : public Quad
 {
 private:
 	const float SIZE = 30.0f;
 
 public:
-	Bullet();
-	Bullet(wstring textureFile);
-	~Bullet();
+	Item(); 
+	Item(wstring textureFile);
+	~Item();
 
 	void Update();
 	void Render();
 
-	void Fire(const Vector2& pos, const Vector2& direction);
+	void Spawn(const Vector2& pos, const Vector2& direction);
 
 	CircleCollider* GetCollider() { return collider; }
 

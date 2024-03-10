@@ -40,6 +40,9 @@ void GameManager::Render()
 	string fps = "FPS : " + to_string(Timer::Get()->GetFPS());
 	ImGui::Text(fps.c_str());
 
+	string playerHealth = "Player Health : " + to_string(Plane::health);
+	ImGui::Text(playerHealth.c_str());
+
 	ObjectManager::Get()->Render();
 	SCENE->Render();	
 

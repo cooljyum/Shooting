@@ -1,6 +1,8 @@
 #include "Framework.h"
 
-Plane::Plane() : Quad(L"Resources/Textures/Shooting/player.png")
+int Plane::health = 100;
+
+Plane::Plane() : Quad(L"Resources/Textures/Shooting2/playerFace.png")
 {
 	//colorBuffer->SetColor(Random(0.0f, 1.0f), Random(0.0f, 1.0f), Random(0.0f, 1.0f));
 
@@ -46,6 +48,7 @@ void Plane::Update()
 		Translate(GetRight() * speed * DELTA);
 
 	Fire();
+	Collision();
 
 	UpdateWorld();
 	collider->UpdateWorld();
@@ -60,6 +63,14 @@ void Plane::Render()
 	cursor->Render();
 
 	collider->RenderUI();
+}
+
+void Plane::Collision()
+{
+	if (ItemManager::Get()->Collision("HealthItem", collider))
+	{
+		//SetActive(false);
+	}
 }
 
 void Plane::Fire()

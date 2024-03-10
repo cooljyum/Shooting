@@ -1,6 +1,6 @@
 #include "Framework.h"
 
-Bullet::Bullet() : Quad(L"Resources/Textures/Shooting2/starBullet.png")
+Item::Item() : Quad(L"Resources/Textures/Shooting2/itemHealth.png")
 {
 	collider = new CircleCollider(SIZE);
 	collider->SetParent(this);
@@ -8,7 +8,7 @@ Bullet::Bullet() : Quad(L"Resources/Textures/Shooting2/starBullet.png")
 	SetActive(false);
 }
 
-Bullet::Bullet(wstring textureFile) : Quad(textureFile)
+Item::Item(wstring textureFile) : Quad(textureFile)
 {
 	collider = new CircleCollider(SIZE);
 	collider->SetParent(this);
@@ -16,16 +16,16 @@ Bullet::Bullet(wstring textureFile) : Quad(textureFile)
 	SetActive(false);
 }
 
-Bullet::~Bullet()
+Item::~Item()
 {
 	delete collider;
 }
 
-void Bullet::Update()
+void Item::Update()
 {
 	if (!IsActive()) return;
-	
-	Translate(GetRight() * speed * DELTA);
+
+	//Translate(GetRight() * speed * DELTA);
 
 	if (localPosition.x < -SIZE || localPosition.x > SCREEN_WIDTH + SIZE)
 		SetActive(false);
@@ -37,17 +37,18 @@ void Bullet::Update()
 	collider->UpdateWorld();
 }
 
-void Bullet::Render()
+void Item::Render()
 {
 	Quad::Render();
 	collider->Render();
+	
 }
 
-void Bullet::Fire(const Vector2& pos, const Vector2& direction)
+void Item::Spawn(const Vector2& pos, const Vector2& direction)
 {
 	SetActive(true);
 
 	SetLocalPosition(pos);
-	localRotation.z = direction.Angle();
+	//localRotation.z = direction.Angle();
 	UpdateWorld();
 }

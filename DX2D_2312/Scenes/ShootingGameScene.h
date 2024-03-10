@@ -11,5 +11,6 @@ public:
 	virtual void PostRender() override;
 
 private:
+	BackGround* bg;	
 	Plane* plane;	
 };

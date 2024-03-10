@@ -11,6 +11,8 @@ public:
 	
 	CircleCollider* GetCollider() { return collider; }
 
+	void Collision();
+
 private:
 	void Fire();
 
@@ -19,4 +21,7 @@ private:
 
 	CircleCollider* collider;
 	Quad* cursor;
+
+public:
+	static int health;
 };

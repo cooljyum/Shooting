@@ -98,11 +98,14 @@ typedef XMMATRIX Matrix;
 #include "Objects/Basic/PoolingManager.h"
 #include "Objects/Basic/Quad.h"
 
+#include "Objects/ShootingGame/BackGround.h"
 #include "Objects/ShootingGame/Plane.h"
 #include "Objects/ShootingGame/Bullet.h"
 #include "Objects/ShootingGame/BulletManager.h"
 #include "Objects/ShootingGame/Enemy.h"
 #include "Objects/ShootingGame/EnemyManager.h"
+#include "Objects/ShootingGame/Item.h"
+#include "Objects/ShootingGame/ItemManager.h"
 
 //Scene Header
 #include "Scenes/Scene.h"

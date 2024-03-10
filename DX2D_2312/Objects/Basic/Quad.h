@@ -9,8 +9,10 @@ public:
 
 	virtual void Update() override;
 	virtual void Render() override;
-
+	void SetTexture(wstring textureFile);
+	
 private:
+
 	void MakeMesh();
 
 protected:

@@ -48,6 +48,21 @@ void Quad::Render()
 	mesh->Draw();
 }
 
+void Quad::SetTexture(wstring textureFile)
+{
+	tag = "Quad";
+
+	material->SetTexture(textureFile);
+	size = material->GetTexture()->GetSize();
+
+	mesh = new Mesh<VertexUV>();
+	MakeMesh();
+	mesh->CreateMesh();
+
+	colorBuffer = new ColorBuffer();
+
+}
+
 void Quad::MakeMesh()
 {
 	float left = -size.x * 0.5f;
