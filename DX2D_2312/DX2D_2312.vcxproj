@@ -169,10 +169,13 @@
     <ClInclude Include="Objects\Basic\ObjectManager.h" />
     <ClInclude Include="Objects\Basic\PoolingManager.h" />
     <ClInclude Include="Objects\Basic\Quad.h" />
+    <ClInclude Include="Objects\ShootingGame\BackGround.h" />
     <ClInclude Include="Objects\ShootingGame\Bullet.h" />
     <ClInclude Include="Objects\ShootingGame\BulletManager.h" />
     <ClInclude Include="Objects\ShootingGame\Enemy.h" />
     <ClInclude Include="Objects\ShootingGame\EnemyManager.h" />
+    <ClInclude Include="Objects\ShootingGame\Item.h" />
+    <ClInclude Include="Objects\ShootingGame\ItemManager.h" />
     <ClInclude Include="Objects\ShootingGame\Plane.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scenes\CollisionScene.h" />
@@ -209,10 +212,13 @@
     <ClCompile Include="Objects\Basic\GameObject.cpp" />
     <ClCompile Include="Objects\Basic\ObjectManager.cpp" />
     <ClCompile Include="Objects\Basic\Quad.cpp" />
+    <ClCompile Include="Objects\ShootingGame\BackGround.cpp" />
     <ClCompile Include="Objects\ShootingGame\Bullet.cpp" />
     <ClCompile Include="Objects\ShootingGame\BulletManager.cpp" />
     <ClCompile Include="Objects\ShootingGame\Enemy.cpp" />
     <ClCompile Include="Objects\ShootingGame\EnemyManager.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Item.cpp" />
+    <ClCompile Include="Objects\ShootingGame\ItemManager.cpp" />
     <ClCompile Include="Objects\ShootingGame\Plane.cpp" />
     <ClCompile Include="Scenes\CollisionScene.cpp" />
     <ClCompile Include="Scenes\ShootingGameScene.cpp" />

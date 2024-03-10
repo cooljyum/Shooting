@@ -1,13 +1,13 @@
-﻿  compilation object save succeeded; see C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\Pixel.cso
-  compilation object save succeeded; see C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\PixelUV.cso
-  compilation object save succeeded; see C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\Tutorial.cso
-  compilation object save succeeded; see C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\Vertex.cso
-  compilation object save succeeded; see C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\VertexUV.cso
+﻿  compilation object save succeeded; see C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\Pixel.cso
+  compilation object save succeeded; see C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\PixelUV.cso
+  compilation object save succeeded; see C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\Tutorial.cso
+  compilation object save succeeded; see C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\Vertex.cso
+  compilation object save succeeded; see C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\VertexUV.cso
   Framework.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Texture.h(14,64): warning C4244: '인수': 'const size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Texture.h(14,64): warning C4244: '인수': 'const size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'Framework.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Texture.h(14,37): warning C4244: '인수': 'const size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Texture.h(14,37): warning C4244: '인수': 'const size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'Framework.cpp'을(를) 컴파일하는 중)
   
   DX2D_2312.cpp
@@ -15,58 +15,58 @@ C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Texture.h(14
   IndexBuffer.cpp
   VertexBuffer.cpp
   CircleCollider.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\CircleCollider.cpp(13,5): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\CircleCollider.cpp(13,5): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   (소스 파일 '/Framework/Collision/CircleCollider.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Collision/CircleCollider.cpp'을(를) 컴파일하는 중)
-  C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75):
+  C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\CircleCollider.cpp(8,32):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\CircleCollider.cpp(8,32):
   	컴파일되는 클래스 템플릿 인스턴스화 'Mesh<Vertex>'에 대한 참조를 확인하세요.
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(52,1):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(52,1):
   	클래스 템플릿 멤버 함수 'void Mesh<Vertex>::CreateMesh(void)'을(를) 컴파일하는 중입니다.
-  		C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\CircleCollider.cpp(21,21):
+  		C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\CircleCollider.cpp(21,21):
   		'CircleCollider::CircleCollider'에서 'Mesh<Vertex>::CreateMesh'에 대한 첫 번째 참조를 확인하세요.
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(57,61): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(57,61): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Collision/CircleCollider.cpp'을(를) 컴파일하는 중)
   
   Collider.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Collision/Collider.cpp'을(를) 컴파일하는 중)
-  C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31):
+  C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\Collider.cpp(13,16):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\Collider.cpp(13,16):
   	컴파일되는 클래스 템플릿 인스턴스화 'Mesh<Vertex>'에 대한 참조를 확인하세요.
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(36,1):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(36,1):
   	클래스 템플릿 멤버 함수 'void Mesh<Vertex>::Draw(D3D11_PRIMITIVE_TOPOLOGY)'을(를) 컴파일하는 중입니다.
-  		C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\Collider.cpp(34,15):
+  		C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\Collider.cpp(34,15):
   		'Collider::Render'에서 'Mesh<Vertex>::Draw'에 대한 첫 번째 참조를 확인하세요.
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(46,25): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(46,25): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Collision/Collider.cpp'을(를) 컴파일하는 중)
   
   RectCollider.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Collision/RectCollider.cpp'을(를) 컴파일하는 중)
-  C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75):
+  C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\RectCollider.cpp(10,32):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\RectCollider.cpp(10,32):
   	컴파일되는 클래스 템플릿 인스턴스화 'Mesh<Vertex>'에 대한 참조를 확인하세요.
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(52,1):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(52,1):
   	클래스 템플릿 멤버 함수 'void Mesh<Vertex>::CreateMesh(void)'을(를) 컴파일하는 중입니다.
-  		C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Collision\RectCollider.cpp(17,21):
+  		C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Collision\RectCollider.cpp(17,21):
   		'RectCollider::RectCollider'에서 'Mesh<Vertex>::CreateMesh'에 대한 첫 번째 참조를 확인하세요.
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(57,61): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(57,61): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Collision/RectCollider.cpp'을(를) 컴파일하는 중)
   
   Device.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Device\Device.cpp(49,22): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Device\Device.cpp(49,22): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Device/Device.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Device\Device.cpp(50,23): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Device\Device.cpp(50,23): warning C4244: '=': 'UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Device/Device.cpp'을(를) 컴파일하는 중)
   
   Environment.cpp
@@ -77,10 +77,10 @@ C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Device\Device.cpp(5
   PixelShader.cpp
   Shader.cpp
   VertexShader.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Shader\VertexShader.cpp(95,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Shader\VertexShader.cpp(95,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Shader/VertexShader.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Shader\VertexShader.cpp(108,69): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Shader\VertexShader.cpp(108,69): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Framework/Shader/VertexShader.cpp'을(를) 컴파일하는 중)
   
   Keyboard.cpp
@@ -92,30 +92,30 @@ C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Shader\VertexShader
   GameObject.cpp
   ObjectManager.cpp
   Quad.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Objects/Basic/Quad.cpp'을(를) 컴파일하는 중)
-  C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31):
+  C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(42,31):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Objects\Basic\Quad.cpp(7,13):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Objects\Basic\Quad.cpp(7,13):
   	컴파일되는 클래스 템플릿 인스턴스화 'Mesh<VertexUV>'에 대한 참조를 확인하세요.
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(36,1):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(36,1):
   	클래스 템플릿 멤버 함수 'void Mesh<VertexUV>::Draw(D3D11_PRIMITIVE_TOPOLOGY)'을(를) 컴파일하는 중입니다.
-  		C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Objects\Basic\Quad.cpp(48,12):
+  		C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Objects\Basic\Quad.cpp(48,12):
   		'Quad::Render'에서 'Mesh<VertexUV>::Draw'에 대한 첫 번째 참조를 확인하세요.
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(46,25): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(46,25): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Objects/Basic/Quad.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Objects/Basic/Quad.cpp'을(를) 컴파일하는 중)
-  C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75):
+  C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(53,75):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(52,1):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(52,1):
   	클래스 템플릿 멤버 함수 'void Mesh<VertexUV>::CreateMesh(void)'을(를) 컴파일하는 중입니다.
-  		C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Objects\Basic\Quad.cpp(9,18):
+  		C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Objects\Basic\Quad.cpp(9,18):
   		'Quad::Quad'에서 'Mesh<VertexUV>::CreateMesh'에 대한 첫 번째 참조를 확인하세요.
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Framework\Render\Mesh.h(57,61): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Framework\Render\Mesh.h(57,61): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Objects/Basic/Quad.cpp'을(를) 컴파일하는 중)
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xmemory(727,103): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -126,7 +126,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
   (소스 파일 '/Objects/Basic/Quad.cpp'을(를) 컴파일하는 중)
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xmemory(727,103):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Objects\Basic\Quad.cpp(60,10):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Objects\Basic\Quad.cpp(75,10):
   	컴파일되는 함수 템플릿 인스턴스화 'void std::vector<T,std::allocator<T>>::emplace_back<float&,float&,int,int>(float &,float &,int &&,int &&)'에 대한 참조를 확인하세요.
           with
           [
@@ -153,27 +153,30 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
               _Objty=VertexUV
           ]
   
+  BackGround.cpp
   Bullet.cpp
   BulletManager.cpp
   Enemy.cpp
   EnemyManager.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Objects\ShootingGame\EnemyManager.cpp(35,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Objects\ShootingGame\EnemyManager.cpp(49,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Objects/ShootingGame/EnemyManager.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Objects\ShootingGame\EnemyManager.cpp(36,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Objects\ShootingGame\EnemyManager.cpp(50,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Objects/ShootingGame/EnemyManager.cpp'을(를) 컴파일하는 중)
   
+  Item.cpp
+  ItemManager.cpp
   Plane.cpp
   CollisionScene.cpp
   ShootingGameScene.cpp
   TutorialScene.cpp
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Scenes\TutorialScene.cpp(27,88): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Scenes\TutorialScene.cpp(27,88): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Scenes/TutorialScene.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Scenes\TutorialScene.cpp(46,63): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Scenes\TutorialScene.cpp(46,63): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Scenes/TutorialScene.cpp'을(를) 컴파일하는 중)
   
-C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Scenes\TutorialScene.cpp(151,33): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Scenes\TutorialScene.cpp(151,33): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 '/Scenes/TutorialScene.cpp'을(를) 컴파일하는 중)
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xmemory(727,103): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -184,7 +187,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
   (소스 파일 '/Scenes/TutorialScene.cpp'을(를) 컴파일하는 중)
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xmemory(727,103):
   템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-  	C:\Users\rlawn\Downloads\240308_Shooting\DX2D_2312\Scenes\TutorialScene.cpp(23,13):
+  	C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\DX2D_2312\Scenes\TutorialScene.cpp(23,13):
   	컴파일되는 함수 템플릿 인스턴스화 'void std::vector<VertexColor,std::allocator<VertexColor>>::emplace_back<int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
   	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(862,24):
   	컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
@@ -208,6 +211,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
           ]
   
   코드를 생성하고 있습니다...
+  LINK : C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\DX2D_2312.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
 DirectXTex.lib(DirectXTexImage.obj) : warning LNK4099: '' PDB를 'DirectXTex.lib(DirectXTexImage.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
 DirectXTex.lib(DirectXTexWIC.obj) : warning LNK4099: '' PDB를 'DirectXTex.lib(DirectXTexWIC.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
 DirectXTex.lib(DirectXTexD3D11.obj) : warning LNK4099: '' PDB를 'DirectXTex.lib(DirectXTexD3D11.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
@@ -224,4 +228,4 @@ ImGui.lib(ImGui.obj) : warning LNK4099: '' PDB를 'ImGui.lib(ImGui.obj)' 또는 
 ImGui.lib(imgui_draw.obj) : warning LNK4099: '' PDB를 'ImGui.lib(imgui_draw.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
 ImGui.lib(imgui_impl_dx11.obj) : warning LNK4099: '' PDB를 'ImGui.lib(imgui_impl_dx11.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
 ImGui.lib(imgui_tables.obj) : warning LNK4099: '' PDB를 'ImGui.lib(imgui_tables.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-  DX2D_2312.vcxproj -> C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\DX2D_2312.exe
+  DX2D_2312.vcxproj -> C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\DX2D_2312.exe

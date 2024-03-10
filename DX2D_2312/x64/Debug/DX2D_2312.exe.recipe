@@ -2,24 +2,24 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\DX2D_2312.exe</FullPath>
+      <FullPath>C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\DX2D_2312.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\Pixel.cso</FullPath>
+      <FullPath>C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\Pixel.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\PixelUV.cso</FullPath>
+      <FullPath>C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\PixelUV.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\Tutorial.cso</FullPath>
+      <FullPath>C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\Tutorial.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\Vertex.cso</FullPath>
+      <FullPath>C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\Vertex.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\rlawn\Downloads\240308_Shooting\x64\Debug\VertexUV.cso</FullPath>
+      <FullPath>C:\Users\rlawn\OneDrive\문서\GitHub\Shooting\x64\Debug\VertexUV.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
