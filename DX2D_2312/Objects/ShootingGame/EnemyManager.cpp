@@ -43,6 +43,39 @@ void EnemyManager::SetTarget(Transform* transform)
 	}
 }
 
+Quad* EnemyManager::GetClosestEnemy(Vector2 pos)
+{
+	float minDistance = FLT_MAX;
+	Quad* selectEnemy = nullptr;
+
+	for (GameObject* enemy : totalObject["CloseRangeEnemy"])
+	{
+		if (!((Enemy*)enemy)->IsActive()) continue;
+
+		float distance = (((Enemy*)enemy)->GetGlobalPosition() - pos).SqrMagnitude();
+		
+		if (minDistance > distance)
+		{
+			minDistance = distance;
+			selectEnemy = ((Enemy*)enemy);
+		}
+	}
+
+	for (GameObject* enemy : totalObject["DistantRangeEnemy"])
+	{
+		if (!((Enemy*)enemy)->IsActive()) continue;
+
+		float distance = (((Enemy*)enemy)->GetGlobalPosition() - pos).SqrMagnitude();
+
+		if (minDistance > distance)
+		{
+			minDistance = distance;
+			selectEnemy = ((Enemy*)enemy);
+		}
+	}
+
+	return selectEnemy;
+}
 Vector2 EnemyManager::GetRandomPos()
 {
 	Direction direction = (Direction)Random(0, 4);

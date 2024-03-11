@@ -75,18 +75,18 @@ void Plane::Collision()
 
 void Plane::CreateObject()
 {
-	cursor = new Quad(L"Resources/Textures/Shooting/cursor.png");
+	cursor = new Quad(L"Resources/Textures/Shooting2/playercursor.png");
 	cursor->SetParent(this);
-	cursor->Translate(Vector2::Up() * 50.0f);
+	cursor->Translate(Vector2::Up() * CURSOR_OFFSET);
 
-	collider = new CircleCollider(70);
+	collider = new CircleCollider(SIZE);
 	collider->SetParent(this);
-	reactionCollider = new RectCollider({ 500,500 });
+	reactionCollider = new RectCollider(REACTION_SIZE);
 	reactionCollider->SetParent(this);
 
-	skillCursor = new Quad(L"Resources/Textures/Shooting/cursor.png");
+	skillCursor = new Quad(L"Resources/Textures/Shooting2/bombcursor.png");
 	skillCursor->SetActive(false);
-	skillCollider = new CircleCollider(120);
+	skillCollider = new CircleCollider(SKILL_SIZE);
 	skillCollider->SetActive(false);
 	skillImg = new Quad(L"Resources/Textures/Shooting2/BombSkill.png");
 	skillImg->SetActive(true);
@@ -124,7 +124,14 @@ void Plane::Fire()
 {
 	if (KEY->Down(VK_LBUTTON) && !useItems[ItemSkill::Bomb])
 	{
-		BulletManager::Get()->Fire(cursor->GetGlobalPosition(), GetUp());
+		Quad* target = EnemyManager::Get()->GetClosestEnemy(localPosition);
+
+		if (target == nullptr)
+			return;
+
+		Vector2 temp = (target->GetGlobalPosition() - localPosition).Normalized();
+		
+		BulletManager::Get()->Fire(cursor->GetGlobalPosition(), temp);
 	}
 
 	if (itemsSlot[ItemSkill::Magnet] && KEY->Down('M'))

@@ -3,7 +3,7 @@
 class Bullet : public Quad
 {
 private:
-	const float SIZE = 30.0f;
+	const float SIZE = 15.0f;
 
 public:
 	Bullet();

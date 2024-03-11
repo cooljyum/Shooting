@@ -5,7 +5,7 @@ class BulletManager : public Singleton<BulletManager>, public PoolingManager<Bul
 private:
 	friend class Singleton;
 
-	const UINT POOL_SIZE = 50;	
+	const UINT POOL_SIZE = 100;	
 
 	BulletManager();
 	~BulletManager();

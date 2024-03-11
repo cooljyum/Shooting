@@ -31,6 +31,9 @@ void GameManager::Update()
 
 void GameManager::Render()
 {
+	if (KEY->Down(VK_F2))
+		Collider::OnDraw();
+
 	Device::Get()->Clear();
 
 	ImGui_ImplDX11_NewFrame();

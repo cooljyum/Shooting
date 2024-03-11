@@ -29,7 +29,7 @@ void Enemy::Update()
     Quad::Update();
     collider->UpdateWorld();
     Plane* plane = (Plane*)target;
-    Vector2 direction = target->GetGlobalPosition() - localPosition;
+    Vector2 direction = target->GetGlobalPosition() - this->GetGlobalPosition();
 
 
     if (!type)

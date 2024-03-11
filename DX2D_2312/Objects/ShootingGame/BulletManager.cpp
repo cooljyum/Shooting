@@ -2,8 +2,8 @@
 
 BulletManager::BulletManager()
 {
-	CreateObjects("PlayerBullet", POOL_SIZE);
-	CreateObjects("EnemyBullet", POOL_SIZE);
+	CreateObjects("PlayerBullet", POOL_SIZE, L"Resources/Textures/Shooting2/starBullet.png");
+	CreateObjects("EnemyBullet", POOL_SIZE, L"Resources/Textures/Shooting2/enemyBullet.png");
 }
 
 BulletManager::~BulletManager()

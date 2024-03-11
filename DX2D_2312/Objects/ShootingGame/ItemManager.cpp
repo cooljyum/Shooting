@@ -42,9 +42,9 @@ void ItemManager::Spawn(const Vector2& pos, const Vector2& direction)
 {
 	int rand = Random(0, 10);
 
-	if (rand < 5)
+	if (rand < 6)
 		Pop("HealthItem")->Spawn(pos, direction);
-	else if(rand < 7)
+	else if(rand < 8)
 		Pop("MagnetItem")->Spawn(pos, direction);
 	else
 		Pop("BombItem")->Spawn(pos, direction);

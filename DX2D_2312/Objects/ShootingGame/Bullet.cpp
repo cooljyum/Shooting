@@ -49,5 +49,7 @@ void Bullet::Fire(const Vector2& pos, const Vector2& direction)
 
 	SetLocalPosition(pos);
 	localRotation.z = direction.Angle();
+
 	UpdateWorld();
+	collider->UpdateWorld();
 }

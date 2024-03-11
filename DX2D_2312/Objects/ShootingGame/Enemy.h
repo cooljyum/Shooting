@@ -3,7 +3,7 @@
 class Enemy : public Quad
 {
 private:
-	const float FIRE_INTERVAL = 1.0f;
+	const float FIRE_INTERVAL = 3.0f;
 
 public: 
 	enum Type

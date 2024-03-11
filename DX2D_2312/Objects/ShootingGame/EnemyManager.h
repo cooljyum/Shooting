@@ -13,7 +13,9 @@ private:
 public:
 	void Update();
 
-	void SetTarget(Transform* transform);		
+	void SetTarget(Transform* transform);	
+
+	Quad* GetClosestEnemy(Vector2 pos);
 
 private:
 	Vector2 GetRandomPos();

@@ -3,6 +3,12 @@
 class Plane : public Quad
 {
 private:
+	const int SIZE = 50;
+	const int SKILL_SIZE = 120;
+	const Vector2 REACTION_SIZE = { 500.0f, 500.0f }; 
+
+	const float CURSOR_OFFSET = 50.0f;
+
 	const float MAGNET_SPEED = 20.0f;
 	const float MAGNET_INTERVAL = 5.0f;
 	const float BOMB_INTERVAL = 0.5f;
