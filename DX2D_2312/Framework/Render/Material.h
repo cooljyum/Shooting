@@ -14,9 +14,13 @@ public:
 	void SetPixelShader(wstring file);
 
 	Texture* GetTexture() { return texture; }
+	ColorBuffer* GetColor() { return colorBuffer; }
+
 private:
 	VertexShader* vertexShader;
 	PixelShader* pixelShader;
+
+	ColorBuffer* colorBuffer;
 
 	Texture* texture = nullptr;
 };

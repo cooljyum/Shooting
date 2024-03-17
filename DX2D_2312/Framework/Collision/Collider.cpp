@@ -1,7 +1,5 @@
 #include "Framework.h"
 
-bool Collider::isDraw = true;
-
 Collider::Collider()
 {
     material = new Material();
@@ -27,7 +25,6 @@ Collider::~Collider()
 void Collider::Render()
 {
     if (!IsActive()) return;
-    if (!isDraw) return;
 
     worldBuffer->Set(world);
     worldBuffer->SetVS(0);

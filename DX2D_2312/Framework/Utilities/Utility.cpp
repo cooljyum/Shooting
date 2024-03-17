@@ -1,5 +1,21 @@
 #include "Framework.h"
 
+wstring Utility::ToWString(string str)
+{
+    wstring result;
+    result.assign(str.begin(), str.end());
+
+    return result;
+}
+
+string Utility::ToString(wstring str)
+{
+    string result;
+    result.assign(str.begin(), str.end());
+
+    return result;
+}
+
 vector<string> Utility::SplitString(string origin, const string& tok)
 {
     vector<string> result;

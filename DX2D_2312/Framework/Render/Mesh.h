@@ -11,6 +11,8 @@ public:
 
 	void CreateMesh();
 
+	void UpdateVertices();
+
 	vector<T>& GetVertices() { return vertices; }
 	vector<UINT>& GetIndices() { return indices; }
 
@@ -56,4 +58,10 @@ inline void Mesh<T>::CreateMesh()
 	{
 		indexBuffer = new IndexBuffer(indices.data(), indices.size());
 	}
+}
+
+template<typename T>
+inline void Mesh<T>::UpdateVertices()
+{
+	vertexBuffer->Update(vertices.data(), vertices.size());
 }

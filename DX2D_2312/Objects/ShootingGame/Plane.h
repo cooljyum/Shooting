@@ -2,68 +2,29 @@
 
 class Plane : public Quad
 {
-private:
-	const int SIZE = 50;
-	const int SKILL_SIZE = 120;
-	const Vector2 REACTION_SIZE = { 500.0f, 500.0f }; 
-
-	const float CURSOR_OFFSET = 50.0f;
-
-	const float MAGNET_SPEED = 20.0f;
-	const float MAGNET_INTERVAL = 5.0f;
-	const float BOMB_INTERVAL = 0.5f;
-private:
-	enum ItemSkill 
-	{
-		Magnet, Bomb
-	};
 public:
 	Plane();
 	~Plane();
 
 	void Update();
 	void Render();
+	void PostRender();
 	
 	CircleCollider* GetCollider() { return collider; }
-	RectCollider* GetReactionCollider() { return reactionCollider; }
+	Quad* GetCursor() { return cursor; }
 
-	CircleCollider* GetSkillCollider() { return skillCollider; }
-
+private:
 	void Collision();
 
 private:
-	void CreateObject();
-	void UpdateObject();
-
-	void AddItem(int index) { itemsSlot[index]++; }
-	void SubItem(int index) { itemsSlot[index]--; }
-	void SetUseItem(int index, bool isTrue) { useItems[index] = isTrue; }
-
-	void Move();
-	void Fire();
-	void Skill();
-
-
-private:
-	float speed = 100.0f;
-
-	float playMagnetTime = 0.0f;
-	float playBombTime = 0.0f;
-
-	bool useItems[2] = { false, false };
-
-	Quad* cursor;
+	float speed = 200.0f;
 
 	CircleCollider* collider;
-	RectCollider* reactionCollider;
+	Quad* cursor;
 
-	Quad* skillCursor;
-	Quad* skillImg;
-	CircleCollider* skillCollider;
+	vector<Skill*> skills;
 
-public:
-	static int health;
-	static int score;
+	int hp = 100;
 
-	static int itemsSlot[2];
+	ProgressBar* hpBar;
 };

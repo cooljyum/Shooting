@@ -151,6 +151,7 @@
     <ClInclude Include="Framework\Collision\Collider.h" />
     <ClInclude Include="Framework\Collision\RectCollider.h" />
     <ClInclude Include="Framework\Device\Device.h" />
+    <ClInclude Include="Framework\Environment\Camera.h" />
     <ClInclude Include="Framework\Environment\Environment.h" />
     <ClInclude Include="Framework\Math\Math.h" />
     <ClInclude Include="Framework\Math\Transform.h" />
@@ -163,20 +164,28 @@
     <ClInclude Include="Framework\Shader\VertexShader.h" />
     <ClInclude Include="Framework\Utilities\Keyboard.h" />
     <ClInclude Include="Framework\Utilities\Timer.h" />
+    <ClInclude Include="Framework\Utilities\Utility.h" />
     <ClInclude Include="Manager\GameManager.h" />
     <ClInclude Include="Manager\SceneManager.h" />
     <ClInclude Include="Objects\Basic\GameObject.h" />
     <ClInclude Include="Objects\Basic\ObjectManager.h" />
     <ClInclude Include="Objects\Basic\PoolingManager.h" />
     <ClInclude Include="Objects\Basic\Quad.h" />
-    <ClInclude Include="Objects\ShootingGame\BackGround.h" />
-    <ClInclude Include="Objects\ShootingGame\Bullet.h" />
-    <ClInclude Include="Objects\ShootingGame\BulletManager.h" />
-    <ClInclude Include="Objects\ShootingGame\Enemy.h" />
-    <ClInclude Include="Objects\ShootingGame\EnemyManager.h" />
-    <ClInclude Include="Objects\ShootingGame\Item.h" />
-    <ClInclude Include="Objects\ShootingGame\ItemManager.h" />
+    <ClInclude Include="Objects\ShootingGame\Background.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\BaseBullet.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\BaseSkill.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\Bullet.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\BulletManager.h" />
+    <ClInclude Include="Objects\ShootingGame\Enemy\DashEnemy.h" />
+    <ClInclude Include="Objects\ShootingGame\Enemy\Enemy.h" />
+    <ClInclude Include="Objects\ShootingGame\Enemy\EnemyManager.h" />
     <ClInclude Include="Objects\ShootingGame\Plane.h" />
+    <ClInclude Include="Objects\ShootingGame\Enemy\RangeEnemy.h" />
+    <ClInclude Include="Objects\ShootingGame\ShootingDataManager.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\Skill.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\WheelBullet.h" />
+    <ClInclude Include="Objects\ShootingGame\Skill\WheelSkill.h" />
+    <ClInclude Include="Objects\UI\ProgressBar.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scenes\CollisionScene.h" />
     <ClInclude Include="Scenes\Scene.h" />
@@ -197,6 +206,7 @@
     <ClCompile Include="Framework\Collision\Collider.cpp" />
     <ClCompile Include="Framework\Collision\RectCollider.cpp" />
     <ClCompile Include="Framework\Device\Device.cpp" />
+    <ClCompile Include="Framework\Environment\Camera.cpp" />
     <ClCompile Include="Framework\Environment\Environment.cpp" />
     <ClCompile Include="Framework\Math\Math.cpp" />
     <ClCompile Include="Framework\Math\Transform.cpp" />
@@ -207,19 +217,27 @@
     <ClCompile Include="Framework\Shader\VertexShader.cpp" />
     <ClCompile Include="Framework\Utilities\Keyboard.cpp" />
     <ClCompile Include="Framework\Utilities\Timer.cpp" />
+    <ClCompile Include="Framework\Utilities\Utility.cpp" />
     <ClCompile Include="Manager\GameManager.cpp" />
     <ClCompile Include="Manager\SceneManager.cpp" />
     <ClCompile Include="Objects\Basic\GameObject.cpp" />
     <ClCompile Include="Objects\Basic\ObjectManager.cpp" />
     <ClCompile Include="Objects\Basic\Quad.cpp" />
-    <ClCompile Include="Objects\ShootingGame\BackGround.cpp" />
-    <ClCompile Include="Objects\ShootingGame\Bullet.cpp" />
-    <ClCompile Include="Objects\ShootingGame\BulletManager.cpp" />
-    <ClCompile Include="Objects\ShootingGame\Enemy.cpp" />
-    <ClCompile Include="Objects\ShootingGame\EnemyManager.cpp" />
-    <ClCompile Include="Objects\ShootingGame\Item.cpp" />
-    <ClCompile Include="Objects\ShootingGame\ItemManager.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Background.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\BaseBullet.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\BaseSkill.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\Bullet.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\BulletManager.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Enemy\DashEnemy.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Enemy\Enemy.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Enemy\EnemyManager.cpp" />
     <ClCompile Include="Objects\ShootingGame\Plane.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Enemy\RangeEnemy.cpp" />
+    <ClCompile Include="Objects\ShootingGame\ShootingDataManager.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\Skill.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\WheelBullet.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Skill\WheelSkill.cpp" />
+    <ClCompile Include="Objects\UI\ProgressBar.cpp" />
     <ClCompile Include="Scenes\CollisionScene.cpp" />
     <ClCompile Include="Scenes\ShootingGameScene.cpp" />
     <ClCompile Include="Scenes\TutorialScene.cpp" />
@@ -239,6 +257,12 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
     </FxCompile>
     <FxCompile Include="Resources\Shaders\PixelUV.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ProgressBar.hlsl">
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>

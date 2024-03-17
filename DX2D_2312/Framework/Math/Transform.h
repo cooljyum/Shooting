@@ -53,6 +53,7 @@ private:
 	Matrix P, IP;
 	XMFLOAT4X4 matWorld;
 
-	Vector2 globalPosition, globalScale;
+	Vector2 globalPosition;
+	Vector2 globalScale = { 1, 1 };
 	Vector2 right, up;
 };

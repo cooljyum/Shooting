@@ -2,6 +2,9 @@
 
 Environment::Environment()
 {
+	mainCamera = new Camera();
+	uiViewBuffer = new MatrixBuffer();
+
 	CreateProjection();
 	CreateSamplerState();
 	CreateBlendState();
@@ -9,24 +12,34 @@ Environment::Environment()
 
 Environment::~Environment()
 {
-	delete viewBuffer;
+	delete mainCamera;
 	delete projectionBuffer;
+	delete uiViewBuffer;
 
 	samplerState->Release();
 	blendState->Release();
 }
 
+void Environment::Update()
+{	
+	mainCamera->Update();
+}
+
+void Environment::RenderUI()
+{
+	uiViewBuffer->SetVS(1);
+
+	mainCamera->RenderUI();
+}
+
 void Environment::CreateProjection()
 {
-	viewBuffer = new MatrixBuffer();
 	projectionBuffer = new MatrixBuffer();
 
 	Matrix orthographic = XMMatrixOrthographicOffCenterLH(0.0f, SCREEN_WIDTH,
 		0.0f, SCREEN_HEIGHT, -1.0f, 1.0f);
 
 	projectionBuffer->Set(orthographic);
-
-	viewBuffer->SetVS(1);
 	projectionBuffer->SetVS(2);
 }
 

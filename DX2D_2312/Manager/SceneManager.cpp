@@ -25,6 +25,8 @@ void SceneManager::Render()
 	if (curScene == nullptr) return;
 
 	curScene->Render();	
+
+	Environment::Get()->RenderUI();
 	curScene->PostRender();
 }
 

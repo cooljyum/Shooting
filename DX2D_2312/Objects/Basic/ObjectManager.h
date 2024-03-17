@@ -15,5 +15,5 @@ public:
 	void Add(GameObject* object);
 
 private:
-	multimap<int, GameObject*> objects;	
+	vector<GameObject*> objects;	
 };

@@ -22,18 +22,12 @@ public:
 
 	ColorBuffer* GetColor() { return colorBuffer; }
 
-	static void OnDraw() { isDraw = !isDraw; }
-
 protected:
 	Type type;
 	
 	Mesh<Vertex>* mesh;
-
-	static bool isDraw;
 private:
 	Material* material;
 	MatrixBuffer* worldBuffer;
 	ColorBuffer* colorBuffer;
-
-	
 };

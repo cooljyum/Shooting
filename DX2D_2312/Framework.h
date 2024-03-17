@@ -22,6 +22,7 @@
 #define SCENE SceneManager::Get()
 #define KEY Keyboard::Get()
 #define DELTA Timer::Get()->GetElapsedTime()
+#define CAM Environment::Get()->GetMainCamera()
 
 #include <windows.h>
 #include <string>
@@ -29,6 +30,8 @@
 #include <map>
 #include <unordered_map>
 #include <functional>
+#include <fstream>
+#include <algorithm>
 
 #include <d3d11.h>
 #include <DirectXMath.h>
@@ -69,6 +72,7 @@ typedef XMMATRIX Matrix;
 #include "Framework/Utilities/Singleton.h"
 #include "Framework/Utilities/Keyboard.h"
 #include "Framework/Utilities/Timer.h"
+#include "Framework/Utilities/Utility.h"
 
 #include "Framework/Device/Device.h"
 
@@ -90,6 +94,7 @@ typedef XMMATRIX Matrix;
 #include "Framework/Collision/RectCollider.h"
 #include "Framework/Collision/CircleCollider.h"
 
+#include "Framework/Environment/Camera.h"
 #include "Framework/Environment/Environment.h"
 
 //Object Header
@@ -98,14 +103,22 @@ typedef XMMATRIX Matrix;
 #include "Objects/Basic/PoolingManager.h"
 #include "Objects/Basic/Quad.h"
 
-#include "Objects/ShootingGame/BackGround.h"
+#include "Objects/UI/ProgressBar.h"
+
+#include "Objects/ShootingGame/ShootingDataManager.h"
+#include "Objects/ShootingGame/Skill/Skill.h"
+#include "Objects/ShootingGame/Skill/BaseSkill.h"
+#include "Objects/ShootingGame/Skill/WheelSkill.h"
+#include "Objects/ShootingGame/Skill/Bullet.h"
+#include "Objects/ShootingGame/Skill/BaseBullet.h"
+#include "Objects/ShootingGame/Skill/WheelBullet.h"
+#include "Objects/ShootingGame/Skill/BulletManager.h"
+#include "Objects/ShootingGame/Enemy/Enemy.h"
+#include "Objects/ShootingGame/Enemy/RangeEnemy.h"
+#include "Objects/ShootingGame/Enemy/DashEnemy.h"
+#include "Objects/ShootingGame/Enemy/EnemyManager.h"
 #include "Objects/ShootingGame/Plane.h"
-#include "Objects/ShootingGame/Bullet.h"
-#include "Objects/ShootingGame/BulletManager.h"
-#include "Objects/ShootingGame/Enemy.h"
-#include "Objects/ShootingGame/EnemyManager.h"
-#include "Objects/ShootingGame/Item.h"
-#include "Objects/ShootingGame/ItemManager.h"
+#include "Objects/ShootingGame/Background.h"
 
 //Scene Header
 #include "Scenes/Scene.h"

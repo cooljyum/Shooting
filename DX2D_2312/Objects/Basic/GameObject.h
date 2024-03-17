@@ -3,7 +3,7 @@
 class GameObject : public Transform
 {
 public:
-	GameObject(int depth = 0);
+	GameObject(bool isAdd = true);
 	virtual ~GameObject();
 
 	virtual void Update() = 0;
@@ -11,8 +11,12 @@ public:
 
 	int GetDepth() { return depth; }
 
+	void SetDepth(int depth) { this->depth = depth; }
+
+	static bool Compare(GameObject* obj1, GameObject* obj2);
+
 protected:
-	int depth;
+	int depth = 0;
 
 	Material* material;
 	MatrixBuffer* worldBuffer;

@@ -8,23 +8,22 @@ protected:
 	~PoolingManager() = default;
 
 public:
-	void CreateObjects(string key, UINT poolSize, wstring filePath = L"");
+	void CreateObjects(string key, UINT poolSize);
 	T* Pop(string key);
+
+	vector<GameObject*>& GetObjects(string key) { return totalObject[key]; }
 
 protected:
 	map<string, vector<GameObject*>> totalObject;
 };
 
 template<typename T>
-inline void PoolingManager<T>::CreateObjects(string key, UINT poolSize, wstring filePath)
+inline void PoolingManager<T>::CreateObjects(string key, UINT poolSize)
 {
 	vector<GameObject*> objects(poolSize);
 
 	for (GameObject*& object : objects)
-		if (filePath != L"")
-			object = new T(filePath);
-		else
-			object = new T();
+		object = new T();
 
 	totalObject[key] = objects;
 }

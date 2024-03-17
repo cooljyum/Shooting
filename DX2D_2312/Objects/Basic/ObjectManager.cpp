@@ -6,25 +6,49 @@ ObjectManager::ObjectManager()
 
 ObjectManager::~ObjectManager()
 {
-	for (pair<int, GameObject*> object : objects)
-		delete object.second;
+	for (GameObject* object : objects)
+		delete object;
 }
 
 void ObjectManager::Update()
 {
-	for (pair<int, GameObject*> object : objects)
-		object.second->Update();
+	for (GameObject* object : objects)
+		object->Update();
 }
 
 void ObjectManager::Render()
 {
-	for (pair<int, GameObject*> object : objects)
+	//정렬 - 깊이순서대로
+	
+	//버블정렬
+	//for (int i = 0; i < objects.size() - 1; i++)
+	//{
+	//	for (int j = 0; j < objects.size() - 1; j++)
+	//	{
+	//		if (objects[i]->GetDepth() > objects[i + 1]->GetDepth())
+	//			swap(objects[i], objects[i + 1]);
+	//	}
+	//}
+
+	//선택정렬
+	//for (int i = 0; i < objects.size() - 1; i++)
+	//{
+	//	for (int j = i + 1 ; j < objects.size() ; j++)
+	//	{
+	//		if (objects[i]->GetDepth() > objects[j]->GetDepth())
+	//			swap(objects[i], objects[j]);
+	//	}
+	//}
+
+	sort(objects.begin(), objects.end(), &GameObject::Compare);
+
+	for (GameObject* object : objects)
 	{
-		object.second->Render();		
+		object->Render();		
 	}
 }
 
 void ObjectManager::Add(GameObject* object)
 {
-	objects.insert({ object->GetDepth(), object });
+	objects.push_back(object);
 }

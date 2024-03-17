@@ -1,17 +1,15 @@
 #include "Framework.h"
 
-Quad::Quad(Vector2 size) : size(size)
+Quad::Quad(Vector2 size, bool isAdd) : size(size), GameObject(isAdd)
 {
 	tag = "Quad";
 
 	mesh = new Mesh<VertexUV>();
 	MakeMesh();
 	mesh->CreateMesh();
-
-	colorBuffer = new ColorBuffer();	
 }
 
-Quad::Quad(wstring textureFile)
+Quad::Quad(wstring textureFile, bool isAdd) : GameObject(isAdd)
 {
 	tag = "Quad";
 
@@ -21,14 +19,11 @@ Quad::Quad(wstring textureFile)
 	mesh = new Mesh<VertexUV>();
 	MakeMesh();
 	mesh->CreateMesh();
-
-	colorBuffer = new ColorBuffer();	
 }
 
 Quad::~Quad()
 {
 	delete mesh;
-	delete colorBuffer;	
 }
 
 void Quad::Update()
@@ -42,7 +37,6 @@ void Quad::Render()
 
 	worldBuffer->Set(world);
 	worldBuffer->SetVS(0);
-	colorBuffer->SetPS(0);
 
 	material->Set();
 	mesh->Draw();
@@ -50,17 +44,10 @@ void Quad::Render()
 
 void Quad::SetTexture(wstring textureFile)
 {
-	tag = "Quad";
-
 	material->SetTexture(textureFile);
 	size = material->GetTexture()->GetSize();
-
-	mesh = new Mesh<VertexUV>();
 	MakeMesh();
-	mesh->CreateMesh();
-
-	colorBuffer = new ColorBuffer();
-
+	mesh->UpdateVertices();
 }
 
 void Quad::MakeMesh()
@@ -72,6 +59,7 @@ void Quad::MakeMesh()
 
 	vector<VertexUV>& vertices = mesh->GetVertices();
 
+	vertices.clear();
 	vertices.emplace_back(left, top, 0, 0);
 	vertices.emplace_back(right, top, 1, 0);
 	vertices.emplace_back(left, bottom, 0, 1);

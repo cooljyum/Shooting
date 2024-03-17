@@ -14,8 +14,10 @@ private:
 public:
 	void Update();	
 
-	float GetElapsedTime() { return elpasedTime > EPSILON ? EPSILON : elpasedTime; }
+	float GetElapsedTime() { return (elpasedTime > EPSILON ? EPSILON : elpasedTime) * deltaScale; }
 	int GetFPS() { return frameRate; }
+
+	void SetScale(float scale) { deltaScale = scale; }
 
 private:
 	float timeScale = 0.0f;
