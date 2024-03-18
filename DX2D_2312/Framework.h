@@ -3,11 +3,11 @@
 #include "targetver.h"
 #define WIN32_LEAN_AND_MEAN             // 거의 사용되지 않는 내용을 Windows 헤더에서 제외합니다.
 
-#define WIN_START_X 100
-#define WIN_START_Y 0
+#define WIN_START_X 700
+#define WIN_START_Y 10
 
-#define SCREEN_WIDTH 853
-#define SCREEN_HEIGHT 1180
+#define SCREEN_WIDTH 775
+#define SCREEN_HEIGHT 967
 
 #define CENTER_X (SCREEN_WIDTH * 0.5f)
 #define CENTER_Y (SCREEN_HEIGHT * 0.5f)

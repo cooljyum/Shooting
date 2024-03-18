@@ -1,6 +1,6 @@
 #include "Framework.h"
 
-Plane::Plane() : Quad(L"Resources/Textures/Shooting/player.png")
+Plane::Plane() : Quad(L"Resources/Textures/Shooting3/Player.png")
 {
 	//colorBuffer->SetColor(Random(0.0f, 1.0f), Random(0.0f, 1.0f), Random(0.0f, 1.0f));
 

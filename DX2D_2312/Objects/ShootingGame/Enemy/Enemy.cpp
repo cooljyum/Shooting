@@ -2,7 +2,7 @@
 
 Enemy::Enemy(EnemyData data) : data(data)
 {
-	wstring path = L"Resources/Textures/Shooting/";
+	wstring path = L"Resources/Textures/Shooting3/Enemy/";
 	SetTexture(path + data.textureFile);
 
 	collider = new CircleCollider(size.x * 0.5f);
@@ -10,11 +10,12 @@ Enemy::Enemy(EnemyData data) : data(data)
 
 	SetActive(false);
 
-	wstring front = path + L"HealthBarFront.png";
-	wstring back = path + L"HealthBarBack.png";
+	path = L"Resources/Textures/Shooting3/UI/";
+	wstring front = path + L"EnemyHpBar.png";
+	wstring back = path + L"HpBarBg.png";
 
 	hpBar = new ProgressBar(front, back);
-	hpBarOffset = { 0, size.y * 0.5f };
+	hpBarOffset = { 0, -size.y * 0.6f };
 	hpBar->SetActive(false);
 	ObjectManager::Get()->Add(hpBar);
 	//hpBar->SetParent(this);
@@ -64,7 +65,7 @@ void Enemy::Spawn()
 
 void Enemy::Move()
 {		
-	Rotate(data.speed * 0.1f * DELTA);
+	//Rotate(data.speed * 0.1f * DELTA);
 	Translate(direction.Normalized() * data.speed * DELTA);
 }
 

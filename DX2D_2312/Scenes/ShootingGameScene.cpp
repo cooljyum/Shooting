@@ -52,8 +52,8 @@ void ShootingGameScene::SetBG()
 {
 	CAM->SetFix(false);
 
-	wstring path = L"Resources/Textures/Shooting/";
-	background = new Background(path + L"background.png");
+	wstring path = L"Resources/Textures/Shooting3/";
+	background = new Background(path + L"BgCity.png");
 	background->SetTarget(plane);
 	
 	//Quad* bg = new Quad(path + L"bg.png");
