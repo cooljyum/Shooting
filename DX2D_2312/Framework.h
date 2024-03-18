@@ -104,6 +104,8 @@ typedef XMMATRIX Matrix;
 #include "Objects/Basic/Quad.h"
 
 #include "Objects/UI/ProgressBar.h"
+#include "Objects/UI/Sprite.h"
+#include "Objects/UI/Button.h"
 
 #include "Objects/ShootingGame/ShootingDataManager.h"
 #include "Objects/ShootingGame/Skill/Skill.h"
@@ -117,8 +119,14 @@ typedef XMMATRIX Matrix;
 #include "Objects/ShootingGame/Enemy/RangeEnemy.h"
 #include "Objects/ShootingGame/Enemy/DashEnemy.h"
 #include "Objects/ShootingGame/Enemy/EnemyManager.h"
+#include "Objects/ShootingGame/Item/Item.h"
+#include "Objects/ShootingGame/Item/ItemManager.h"
 #include "Objects/ShootingGame/Plane.h"
 #include "Objects/ShootingGame/Background.h"
+
+
+#include "Objects/ShootingGame/Inven/Inventory.h"
+#include "Objects/ShootingGame/Inven/InvenManager.h"
 
 //Scene Header
 #include "Scenes/Scene.h"

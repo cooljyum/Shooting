@@ -122,8 +122,8 @@ void Enemy::Damage(string key)
 	}
 		break;
 	}
-
-	hp -= skillData.power;
+	Plane* plane = (Plane*)target;
+	hp -= (skillData.power+ plane->GetAttack()*0.1f);
 	hpBar->SetAmount((float)hp / (float)data.maxHp);
 
 	if (hp <= 0)
@@ -134,4 +134,7 @@ void Enemy::Dead()
 {
 	SetActive(false);
 	hpBar->SetActive(false);
+
+	//if (Random(0, 2))
+	ItemManager::Get()->Spawn(localPosition);
 }

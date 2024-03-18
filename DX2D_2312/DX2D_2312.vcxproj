@@ -172,6 +172,9 @@
     <ClInclude Include="Objects\Basic\PoolingManager.h" />
     <ClInclude Include="Objects\Basic\Quad.h" />
     <ClInclude Include="Objects\ShootingGame\Background.h" />
+    <ClInclude Include="Objects\ShootingGame\Inven\Inventory.h" />
+    <ClInclude Include="Objects\ShootingGame\Item\Item.h" />
+    <ClInclude Include="Objects\ShootingGame\Item\ItemManager.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\BaseBullet.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\BaseSkill.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\Bullet.h" />
@@ -185,7 +188,10 @@
     <ClInclude Include="Objects\ShootingGame\Skill\Skill.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\WheelBullet.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\WheelSkill.h" />
+    <ClInclude Include="Objects\UI\Button.h" />
+    <ClInclude Include="Objects\ShootingGame\Inven\InvenManager.h" />
     <ClInclude Include="Objects\UI\ProgressBar.h" />
+    <ClInclude Include="Objects\UI\Sprite.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scenes\CollisionScene.h" />
     <ClInclude Include="Scenes\Scene.h" />
@@ -224,6 +230,10 @@
     <ClCompile Include="Objects\Basic\ObjectManager.cpp" />
     <ClCompile Include="Objects\Basic\Quad.cpp" />
     <ClCompile Include="Objects\ShootingGame\Background.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Inven\InvenManager.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Inven\Inventory.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Item\Item.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Item\ItemManager.cpp" />
     <ClCompile Include="Objects\ShootingGame\Skill\BaseBullet.cpp" />
     <ClCompile Include="Objects\ShootingGame\Skill\BaseSkill.cpp" />
     <ClCompile Include="Objects\ShootingGame\Skill\Bullet.cpp" />
@@ -237,7 +247,9 @@
     <ClCompile Include="Objects\ShootingGame\Skill\Skill.cpp" />
     <ClCompile Include="Objects\ShootingGame\Skill\WheelBullet.cpp" />
     <ClCompile Include="Objects\ShootingGame\Skill\WheelSkill.cpp" />
+    <ClCompile Include="Objects\UI\Button.cpp" />
     <ClCompile Include="Objects\UI\ProgressBar.cpp" />
+    <ClCompile Include="Objects\UI\Sprite.cpp" />
     <ClCompile Include="Scenes\CollisionScene.cpp" />
     <ClCompile Include="Scenes\ShootingGameScene.cpp" />
     <ClCompile Include="Scenes\TutorialScene.cpp" />

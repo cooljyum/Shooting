@@ -25,6 +25,9 @@ void GameManager::Update()
 	Keyboard::Get()->Update();
 	Timer::Get()->Update();
 
+	if (KEY->Down(VK_F2))
+		Collider::OnDraw();
+
 	Environment::Get()->Update();
 	ObjectManager::Get()->Update();
 	SCENE->Update();
@@ -48,6 +51,7 @@ void GameManager::Render()
 	ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
 
 	Device::Get()->Present();
+
 }
 
 void GameManager::Create()

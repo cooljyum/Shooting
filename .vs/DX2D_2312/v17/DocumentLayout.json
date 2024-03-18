@@ -1,85 +1,203 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\",
+  "WorkspaceRootPath": "F:\\git\\Shooting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Framework\\Utilities\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Utilities\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Scenes\\ShootingGameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Scenes\\ShootingGameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Plane.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Plane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BulletManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\BulletManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\EnemyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Item\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ItemManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\ItemManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BulletManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\BulletManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Collision\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Collision\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\RectCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Collision\\RectCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Collision\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\RectCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Collision\\RectCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Manager\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Manager\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ItemManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\ItemManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\UI\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Scenes\\ShootingGameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Scenes\\ShootingGameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\UI\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\XSTRING||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Item\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\VECTOR||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\Quad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\Basic\\Quad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\UI\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\UI\\Sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\Quad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\Basic\\Quad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\ProgressBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\UI\\ProgressBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\Basic\\ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Scenes\\TutorialScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Scenes\\TutorialScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Scenes\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Scenes\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Skill\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BaseSkill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Skill\\BaseSkill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\Skill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Skill\\Skill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\FUNCTIONAL||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Framework\\Math\\Transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework\\Math\\Transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\ProgressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\UI\\ProgressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Background.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Background.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Background.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Objects\\ShootingGame\\Background.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|F:\\git\\Shooting\\DX2D_2312\\Resources\\TextData\\ItemTable.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B8C207B8-C530-4793-A088-B99AF6659F19}|DX2D_2312\\DX2D_2312.vcxproj|solutionrelative:DX2D_2312\\Resources\\TextData\\ItemTable.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,263 +207,651 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Timer.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Utilities\\Timer.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Utilities\\Timer.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Utilities\\Timer.h",
+              "RelativeToolTip": "DX2D_2312\\Framework\\Utilities\\Timer.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAhwBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-18T02:12:25.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvenManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T11:02:13.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventory.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.cpp",
+              "ViewState": "AQIAACkAAAAAAAAAAAAhwDgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T12:00:24.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShootingGameScene.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\ShootingGameScene.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Scenes\\ShootingGameScene.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\ShootingGameScene.cpp",
+              "RelativeToolTip": "DX2D_2312\\Scenes\\ShootingGameScene.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAhwEIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:12:15.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Inven\\Inventory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T11:45:19.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Plane.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T16:39:45.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Plane.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Plane.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Plane.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:16:18.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyManager.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:10:43.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EnemyManager.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\EnemyManager.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\EnemyManager.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\EnemyManager.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\EnemyManager.cpp",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAEkAAAADAAAA",
+              "Title": "ItemManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.cpp",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwD4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T17:51:25.872Z",
+              "WhenOpened": "2024-03-17T10:10:09.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Item.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\Item.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Item\\Item.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\Item.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Item\\Item.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:10:25.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAUwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:11:15.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvenManager.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Inven\\InvenManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:59:34.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RangeEnemy.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T15:32:14.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Manager\\GameManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Manager\\GameManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Manager\\GameManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Manager\\GameManager.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T22:54:29.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Collider.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Collision\\Collider.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.cpp",
+              "RelativeToolTip": "DX2D_2312\\Framework\\Collision\\Collider.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-18T01:45:32.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\Enemy.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T17:23:25.497Z",
+              "WhenOpened": "2024-03-17T10:10:20.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bullet.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Bullet.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Bullet.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Bullet.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Bullet.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "DocumentIndex": 20,
+              "Title": "ShootingGameScene.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\ShootingGameScene.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Scenes\\ShootingGameScene.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\ShootingGameScene.h",
+              "RelativeToolTip": "DX2D_2312\\Scenes\\ShootingGameScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T18:10:18.498Z",
+              "WhenOpened": "2024-03-17T10:12:14.311Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItemManager.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ItemManager.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\ItemManager.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ItemManager.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\ItemManager.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T17:50:51.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnemyManager.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\EnemyManager.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\EnemyManager.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\EnemyManager.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\EnemyManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T18:09:05.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Plane.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Plane.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Plane.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T17:09:05.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Plane.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Plane.cpp",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T17:05:48.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BulletManager.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BulletManager.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\BulletManager.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BulletManager.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\BulletManager.cpp",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T18:10:06.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bullet.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Bullet.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Bullet.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Bullet.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Bullet.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T18:10:20.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BulletManager.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BulletManager.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\BulletManager.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BulletManager.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\BulletManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T17:05:46.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T17:11:51.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Item.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Item.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item.cpp",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Item.cpp",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAADEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T17:51:39.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Manager\\GameManager.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Manager\\GameManager.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Manager\\GameManager.cpp",
-              "RelativeToolTip": "DX2D_2312\\Manager\\GameManager.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAADwvyMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-11T00:59:35.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RectCollider.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\RectCollider.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Collision\\RectCollider.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\RectCollider.cpp",
-              "RelativeToolTip": "DX2D_2312\\Framework\\Collision\\RectCollider.cpp",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-11T00:56:57.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RectCollider.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\RectCollider.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Collision\\RectCollider.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\RectCollider.h",
-              "RelativeToolTip": "DX2D_2312\\Framework\\Collision\\RectCollider.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-11T00:57:08.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Collider.cpp",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.cpp",
-              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Collision\\Collider.cpp",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.cpp",
-              "RelativeToolTip": "DX2D_2312\\Framework\\Collision\\Collider.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-11T00:57:12.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Collider.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Collision\\Collider.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.h",
-              "RelativeToolTip": "DX2D_2312\\Framework\\Collision\\Collider.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-11T00:57:21.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Item.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Item.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Item.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T18:08:22.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ItemManager.h",
-              "DocumentMoniker": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ItemManager.h",
-              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\ItemManager.h",
-              "ToolTip": "C:\\Users\\rlawn\\OneDrive\\\uBB38\uC11C\\GitHub\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ItemManager.h",
-              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\ItemManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-10T17:52:00.721Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Microsoft.CppCommon.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
-              "ViewState": "AQIAAFQCAAAAAAAAAAAqwGUCAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-03-10T18:06:06.944Z"
+              "Title": "ShootingDataManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:02:45.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Collider.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Collision\\Collider.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Collision\\Collider.h",
+              "RelativeToolTip": "DX2D_2312\\Framework\\Collision\\Collider.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-18T01:44:17.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Manager\\GameManager.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Manager\\GameManager.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Manager\\GameManager.h",
+              "RelativeToolTip": "DX2D_2312\\Manager\\GameManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-18T01:44:41.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ShootingDataManager.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\ShootingDataManager.h",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-18T01:15:12.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Button.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Button.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\UI\\Button.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Button.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\UI\\Button.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:44:22.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RangeEnemy.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\RangeEnemy.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T15:32:13.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Button.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Button.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\UI\\Button.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Button.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\UI\\Button.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:41:48.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ItemManager.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Item\\ItemManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:10:27.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Item.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\Item.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Item\\Item.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Item\\Item.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Item\\Item.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:03:35.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
+              "ViewState": "AQIAAFAHAAAAAAAAAAD4v2QHAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-17T22:49:47.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Quad.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\Quad.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\Basic\\Quad.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\Quad.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\Basic\\Quad.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T11:11:57.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Framework.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Framework.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Framework.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Framework.h",
+              "RelativeToolTip": "DX2D_2312\\Framework.h",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:43:14.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
+              "ViewState": "AQIAAPUAAAAAAAAAAAD4vwkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-18T01:03:59.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProgressBar.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\ProgressBar.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\UI\\ProgressBar.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\ProgressBar.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\UI\\ProgressBar.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T11:07:34.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Sprite.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Sprite.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\UI\\Sprite.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Sprite.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\UI\\Sprite.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T22:40:03.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Quad.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\Quad.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\Basic\\Quad.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\Quad.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\Basic\\Quad.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T11:08:08.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Sprite.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Sprite.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\UI\\Sprite.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\Sprite.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\UI\\Sprite.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T22:37:58.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ObjectManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\ObjectManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\Basic\\ObjectManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\Basic\\ObjectManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\Basic\\ObjectManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T11:08:36.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Scene.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\Scene.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Scenes\\Scene.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\Scene.h",
+              "RelativeToolTip": "DX2D_2312\\Scenes\\Scene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T16:37:21.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TutorialScene.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\TutorialScene.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Scenes\\TutorialScene.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Scenes\\TutorialScene.h",
+              "RelativeToolTip": "DX2D_2312\\Scenes\\TutorialScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T16:37:22.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EnemyManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Enemy\\EnemyManager.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:11:17.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BaseSkill.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BaseSkill.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Skill\\BaseSkill.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BaseSkill.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Skill\\BaseSkill.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T15:58:08.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\Bullet.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Skill\\Bullet.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\Bullet.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Skill\\Bullet.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T15:58:12.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BulletManager.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T15:58:20.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BulletManager.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Skill\\BulletManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T15:58:23.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Skill.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\Skill.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\Skill\\Skill.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\Skill\\Skill.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\Skill\\Skill.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T15:58:04.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "functional",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\functional",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\functional",
+              "ViewState": "AQIAAKEDAAAAAAAAAAD4v7UDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-17T15:06:00.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProgressBar.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\ProgressBar.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\UI\\ProgressBar.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\UI\\ProgressBar.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\UI\\ProgressBar.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T11:07:36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Transform.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Math\\Transform.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Framework\\Math\\Transform.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Framework\\Math\\Transform.cpp",
+              "RelativeToolTip": "DX2D_2312\\Framework\\Math\\Transform.cpp",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T11:38:08.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Background.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BackGround.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\BackGround.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BackGround.cpp",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\BackGround.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:44:25.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Background.h",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BackGround.h",
+              "RelativeDocumentMoniker": "DX2D_2312\\Objects\\ShootingGame\\BackGround.h",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Objects\\ShootingGame\\BackGround.h",
+              "RelativeToolTip": "DX2D_2312\\Objects\\ShootingGame\\BackGround.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:44:06.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Framework.cpp",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Framework.cpp",
+              "RelativeDocumentMoniker": "DX2D_2312\\Framework.cpp",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Framework.cpp",
+              "RelativeToolTip": "DX2D_2312\\Framework.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:43:14.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ItemTable.csv",
+              "DocumentMoniker": "F:\\git\\Shooting\\DX2D_2312\\Resources\\TextData\\ItemTable.csv",
+              "RelativeDocumentMoniker": "DX2D_2312\\Resources\\TextData\\ItemTable.csv",
+              "ToolTip": "F:\\git\\Shooting\\DX2D_2312\\Resources\\TextData\\ItemTable.csv",
+              "RelativeToolTip": "DX2D_2312\\Resources\\TextData\\ItemTable.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-03-17T10:02:35.424Z",
+              "EditorCaption": ""
             }
           ]
         }

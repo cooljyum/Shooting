@@ -3,7 +3,8 @@
 ShootingDataManager::ShootingDataManager()
 {
 	LoadSkillData();
-	LoadEnemyDdata();
+	LoadEnemyData();
+	LoadItemData();
 }
 
 
@@ -45,7 +46,7 @@ void ShootingDataManager::LoadSkillData()
 	}
 }
 
-void ShootingDataManager::LoadEnemyDdata()
+void ShootingDataManager::LoadEnemyData()
 {
 	ifstream loadFile(L"Resources/TextData/EnemyTable.csv");
 
@@ -80,5 +81,44 @@ void ShootingDataManager::LoadEnemyDdata()
 		data.textureFile = ToWString(datas[8]);
 
 		enemyDatas[data.key] = data;
+	}
+}
+
+void ShootingDataManager::LoadItemData()
+{
+	ifstream loadFile(L"Resources/TextData/ItemTable.csv");
+
+	string temp;
+
+	bool isFirstLine = true;
+
+	while (!loadFile.eof())
+	{
+		getline(loadFile, temp);
+
+		if (temp.size() == 0)
+			return;
+
+		if (isFirstLine)
+		{
+			isFirstLine = false;
+			continue;
+		}
+
+		vector<string> datas = SplitString(temp, ",");
+
+		ItemData data;
+
+		data.key = stoi(datas[0]);
+		data.name = datas[1];
+		data.type = stoi(datas[2]);
+		data.level = stoi(datas[3]);
+		data.attack = stof(datas[4]);
+		data.defense = stof(datas[5]);
+		data.hp = stof(datas[5]);
+		data.speed = stof(datas[6]);
+		data.textureFile = ToWString(datas[8]);
+
+		itemDatas[data.key] = data;
 	}
 }

@@ -84,7 +84,25 @@ void Plane::PostRender()
 	string str = "HP : " + to_string(hp);
 	ImGui::Text(str.c_str());
 
+	string strSpeed = "Speed : " + to_string(speed);
+	ImGui::Text(strSpeed.c_str());
+
+	string strAbility = "itemAbility [" + to_string(itemAbility.attack) +"," + to_string(itemAbility.defense) 
+		+ "," + to_string(itemAbility.hp) + "," + to_string(itemAbility.speed) + "]";
+	ImGui::Text(strAbility.c_str());
+
 	hpBar->Render();
+}
+
+void Plane::AddAbility(float attack, float defense, float hp, float speed)
+{
+	itemAbility.attack += attack;
+	itemAbility.defense += defense;
+	itemAbility.hp += hp;
+	itemAbility.speed += speed;
+
+	this->speed += (speed * 0.1f);
+	this->hp += (hp * 0.1f);
 }
 
 void Plane::Collision()
@@ -94,6 +112,8 @@ void Plane::Collision()
 	if (bullet)
 	{
 		bullet->SetActive(false);
-		hp--;
+		float damage = (10 - itemAbility.defense * 0.1f);
+		if (damage <= 0) return;
+		hp -= damage;
 	}
 }

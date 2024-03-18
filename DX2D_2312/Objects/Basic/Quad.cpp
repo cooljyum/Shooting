@@ -21,6 +21,18 @@ Quad::Quad(wstring textureFile, bool isAdd) : GameObject(isAdd)
 	mesh->CreateMesh();
 }
 
+Quad::Quad(wstring textureFile, Vector2 size, bool isAdd) : GameObject(isAdd)
+{
+	tag = "Quad";
+
+	material->SetTexture(textureFile);
+	this->size = size;
+
+	mesh = new Mesh<VertexUV>();
+	MakeMesh();
+	mesh->CreateMesh();
+}
+
 Quad::~Quad()
 {
 	delete mesh;
@@ -34,12 +46,27 @@ void Quad::Update()
 void Quad::Render()
 {
 	if (!IsActive()) return;
+	if (isPost) return;
 
 	worldBuffer->Set(world);
 	worldBuffer->SetVS(0);
 
 	material->Set();
 	mesh->Draw();
+}
+
+void Quad::PostRender()
+{
+	if (!IsActive()) return;
+	if (isPost) return;
+
+	worldBuffer->Set(world);
+	worldBuffer->SetVS(0);
+
+	material->Set();
+	mesh->Draw();
+
+
 }
 
 void Quad::SetTexture(wstring textureFile)
