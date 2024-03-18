@@ -25,8 +25,10 @@ public:
 	string GetTag() { return tag; }	
 
 	void SetLocalPosition(Vector2 pos) { localPosition = pos; }
+	void SetLocalPosition(float x, float y) { localPosition = { x, y }; }
 	void SetLocalRotation(float x, float y, float z) { localRotation = { x, y, z }; }
 	void SetLocalScale(Vector2 scale) { localScale = scale; }
+	void SetLocalScale(float x, float y) { localScale = { x, y }; }
 	void SetPivot(Vector2 pivot) { this->pivot = pivot; }
 
 	void SetParent(Transform* transform) { parent = transform; }

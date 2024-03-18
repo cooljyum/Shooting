@@ -22,7 +22,7 @@ public:
 
 	static void OnDraw() { isDraw = !isDraw; }
 
-	ColorBuffer* GetColor() { return colorBuffer; }
+	ColorBuffer* GetColor() { return material->GetColor(); }
 
 protected:
 	Type type;
@@ -34,5 +34,5 @@ protected:
 private:
 	Material* material;
 	MatrixBuffer* worldBuffer;
-	ColorBuffer* colorBuffer;
+
 };
