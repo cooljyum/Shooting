@@ -9,7 +9,8 @@ public:
 	void Update();
 	void Render() override;
 
-	void Spawn(Vector2 pos);
+	void Spawn(const Vector2& pos);
+	void Spawn(const Vector2& pos, ItemData data);
 
 	void Collision();
 

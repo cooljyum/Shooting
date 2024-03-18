@@ -13,7 +13,7 @@ private:
 	const Float4 DOWN_COLOR = { 0.5f, 0.5f, 0.5f, 0.5f };
 
 public:
-	Button(wstring path);
+	Button(wstring path = L"Resources / Textures / Shooting3 / UI / equipTxt_B.png");
 	Button(wstring path, Vector2 pos);
 	~Button();
 	void Update() override;

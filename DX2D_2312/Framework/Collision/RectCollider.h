@@ -33,6 +33,8 @@ public:
 	Vector2 Size() { return size * GetGlobalScale(); }
 	Vector2 Half() { return Size() * 0.5f; }	
 
+	void SetSize(Vector2 size);
+
 private:
 	bool IsBetweenPoint(const Vector2& start, const Vector2& end1, const Vector2& end2, const Vector2& point);
 

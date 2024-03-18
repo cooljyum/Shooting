@@ -6,8 +6,8 @@
 #define WIN_START_X 100
 #define WIN_START_Y 0
 
-#define SCREEN_WIDTH 1280
-#define SCREEN_HEIGHT 720
+#define SCREEN_WIDTH 853
+#define SCREEN_HEIGHT 1180
 
 #define CENTER_X (SCREEN_WIDTH * 0.5f)
 #define CENTER_Y (SCREEN_HEIGHT * 0.5f)

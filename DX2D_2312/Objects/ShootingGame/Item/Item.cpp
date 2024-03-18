@@ -32,10 +32,15 @@ void Item::Render()
 	collider->Render();
 }
 
-void Item::Spawn(Vector2 pos)
+void Item::Spawn(const Vector2& pos)
 {
 	SetActive(true);
 	this->SetLocalPosition(pos);
+}
+
+void Item::Spawn(const Vector2& pos, ItemData data)
+{
+	//»Ï..
 }
 
 void Item::Collision()
