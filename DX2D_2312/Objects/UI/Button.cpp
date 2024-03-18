@@ -54,8 +54,8 @@ void Button::Collision()
 	{
 		if (KEY->Down(VK_LBUTTON))
 		{
-			if(event)
-				event();
+			if(clickEvent)
+				clickEvent();
 		}
 	}
 }

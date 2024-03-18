@@ -11,7 +11,7 @@ public:
 	void PostRender();
 	void Collision();
 
-	void SetEvent(function<void()> event = nullptr) { this->event = event; }
+	void SetEvent(Event clickEvent = nullptr) { this->clickEvent = clickEvent; }
 
 	void SetFrontImg(wstring textureFile) { this->frontImg->SetTexture(textureFile); isFront = true; }
 	void SetFrontImgActive(bool isActive) { frontImg->SetActive(isActive); }
@@ -23,5 +23,5 @@ private:
 	Sprite* frontImg;
 	bool isFront;
 
-	function<void()> event;
+	Event clickEvent = nullptr;
 };

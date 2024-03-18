@@ -63,6 +63,9 @@ typedef XMFLOAT4 Float4;
 typedef XMFLOAT3 Float3;
 typedef XMFLOAT2 Float2;
 typedef XMMATRIX Matrix;
+typedef function<void()> Event; //반환값이 없는~
+typedef function<void(int)> IntParamEvent; //Set 어쩌구 받을때?
+typedef function<void(void*)> ObjectParamEvent; //반환값이 없는~
 
 //Framework Header
 #include "Framework/Math/Vector2.h"
