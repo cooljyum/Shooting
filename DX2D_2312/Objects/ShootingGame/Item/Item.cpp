@@ -48,7 +48,8 @@ void Item::Collision()
 	Plane* plane = (Plane*)target;
 	if (collider->IsCollision(plane->GetCollider()))
 	{
-		InvenManager::Get()->GetInVen()->AddItem(this);
+		if(this->data.type > 0)
+			InvenManager::Get()->GetInVen()->AddItem(this);
 		SetActive(false);
 	}
 }

@@ -13,7 +13,7 @@ public:
 
 	Inventory* GetInVen() { return inven; }
 
-	void SetTarget(Plane* transform) { inven->SetTarget(transform); }
+	void SetOwner(Plane* owner) { inven->SetOwner(owner); }
 
 public:
 	Button* invenBtn;

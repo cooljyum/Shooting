@@ -2,6 +2,14 @@
 
 ItemManager::ItemManager()
 {
+	totalObject["Exp"].resize(50);
+
+	for (GameObject*& exp : totalObject["Exp"])
+	{
+		exp = new Item(ShootingDataManager::Get()->GetItemData(1));
+		items.push_back((Item*)exp);
+	}
+
 	totalObject["Armor"].resize(50);
 
 	for (GameObject*& armor : totalObject["Armor"])
@@ -43,7 +51,7 @@ void ItemManager::SetTarget(Transform* transform)
 
 void ItemManager::Spawn(Vector2 pos)
 {
-	int type = Random(0, 3);
+	int type = Random(0, 4);
 
 	Item* item = nullptr;
 
@@ -57,6 +65,9 @@ void ItemManager::Spawn(Vector2 pos)
 		break;
 	case 2:
 		item = Pop("Boot");
+		break;
+	case 3:
+		item = Pop("Exp");
 		break;
 	}
 

@@ -64,25 +64,29 @@ void Inventory::SetActive(bool isActive)
 	nextBtn->SetActive(isActive);
 	prevBtn->SetActive(isActive);
 
-	for (Button* itemSlot : itemSlots)
+	FOR(6)
 	{
-		itemSlot->SetActive(isActive);
-		itemSlot->SetFrontImgActive(isActive);
+		itemSlots[i]->SetActive(isActive);
+		if(!isActive)
+			itemSlots[i]->SetFrontImgActive(isActive);
 	}
 
 	FOR (3)
 	{
 		equipSlots[i]->SetActive(isActive);
-		if(equipItems[i] != nullptr)
-			equipSlots[i]->SetFrontImgActive(isActive);
-		else 
-			equipSlots[i]->SetFrontImgActive(false);
+		if(owner)
+			if(owner->GetEuipItems()[i] != nullptr)
+				equipSlots[i]->SetFrontImgActive(isActive);
+			else 
+				equipSlots[i]->SetFrontImgActive(false);
 	}
 	UpdateSlot();
 }
 
 void Inventory::AddItem(Item* item)
 {
+	if (CheckIsItem(item)) return;
+
 	items.push_back(item);
 	UpdateSlot();
 }
@@ -102,31 +106,39 @@ void Inventory::AddEquipItem(int type, Item* item)
 
 	if (item == nullptr) 
 	{
-		ItemData itemdata = equipItems[idx]->GetData();
-		target->AddAbility(-itemdata.attack, -itemdata.defense, -itemdata.hp, -itemdata.speed);
+		Item* item = owner->GetEuipItems()[idx];
+		ItemData itemdata = item->GetData();
 
-		equipItems[idx] = nullptr;
+		owner->SetEuipItems(idx, nullptr);
 		equipSlots[idx]->SetFrontImgActive(false);
+		
+		AddItem(item);
+		
+		owner->AddAbility(-itemdata.attack, -itemdata.defense, -itemdata.hp, -itemdata.speed);
 		return;
 	}
 
-	if (equipItems[idx] != nullptr) return;
+	if (owner->GetEuipItems()[idx] != nullptr) return;
 
-	equipItems[idx] = item;
+	owner->SetEuipItems(idx, item);
 
 	ItemData itemdata = item->GetData();
 	equipSlots[idx]->SetFrontImg(L"Resources/Textures/Shooting3/Item/" + itemdata.textureFile);
 	equipSlots[idx]->SetFrontImgActive(true);
 	equipSlots[idx]->SetEvent([this, type]() { AddEquipItem(type); });
 
-	target->AddAbility( itemdata.attack, itemdata.defense, itemdata.hp, itemdata.speed);
+	owner->AddAbility( itemdata.attack, itemdata.defense, itemdata.hp, itemdata.speed);
 }
 
 void Inventory::UpdateSlot()
 {
-	if (items.size() == 0) return;
+	if (items.size() == 0) 
+	{
+		itemSlots[0]->SetFrontImgActive(false);
+		itemSlots[0]->SetEvent();
+		return;
+	}
 	
-
 	int startPos = (page - 1) * 6;
 	int endPos;
 	
@@ -140,11 +152,14 @@ void Inventory::UpdateSlot()
 	for (int i = 0; i < 6; i++) {
 		if (startPos + i < endPos) {
 			itemSlots[i]->SetFrontImgActive(isActive);
-			ItemData itemdata = items[startPos + i]->GetData();
+			Item* item = items[startPos + i];
+			ItemData itemdata = item->GetData();
 			wstring path = L"Resources/Textures/Shooting3/Item/";
 			itemSlots[i]->SetFrontImg(path + itemdata.textureFile);
-			itemSlots[i]->SetEvent([this, itemdata, index = startPos + i]() {
+			itemSlots[i]->SetEvent([this, itemdata, index = startPos + i, item, itemSlot = itemSlots[i]]() {
 				AddEquipItem(itemdata.type, items[index]);
+				EarseItem(item);
+
 				});
 		}
 		else {
@@ -158,22 +173,22 @@ void Inventory::UpdateSlot()
 void Inventory::CreateInven()
 {
 	invenBg = new Sprite(L"Resources/Textures/Shooting3/UI/toggle_bg.png", { 500.0f, 500.0f });
-	invenBg->SetLocalPosition({ CENTER_X, 290.0f });
+	invenBg->SetLocalPosition({ CENTER_X, 300.0f });
 
 	invenTitle = new Sprite(L"Resources/Textures/Shooting3/UI/bg_title.png");
-	invenTitle->SetLocalPosition({ CENTER_X , 550.0f });
+	invenTitle->SetLocalPosition({ CENTER_X , 560.0f });
 
 	invenTitleTxt = new Sprite(L"Resources/Textures/Shooting3/UI/equipTxt_B.png");
 	invenTitleTxt->SetParent(invenTitle);
-	invenTitleTxt->SetLocalPosition({ -5.0f , 15.0f });
+	invenTitleTxt->SetLocalPosition({ -5.0f , 25.0f });
 
-	closeBtn = new Button(L"Resources/Textures/Shooting3/UI/closeBtn.png", { 950.0f , 550.0f });
+	closeBtn = new Button(L"Resources/Textures/Shooting3/UI/closeBtn.png", { CENTER_X + 305.0f , 560.0f });
 	closeBtn->SetEvent([this]() {this->SetActive(false); });
 
-	nextBtn = new Button(L"Resources/Textures/Shooting3/UI/nextBtn.png", { 730.0 , 120.0f });
+	nextBtn = new Button(L"Resources/Textures/Shooting3/UI/nextBtn.png", { CENTER_X + 150.0f , 130.0f });
 	nextBtn->SetEvent([this]() { PageMove(1); });
 
-	prevBtn = new Button(L"Resources/Textures/Shooting3/UI/prevBtn.png", { 550.0f , 120.0f });
+	prevBtn = new Button(L"Resources/Textures/Shooting3/UI/prevBtn.png", { CENTER_X - 150.0f , 130.0f });
 	prevBtn->SetEvent([this]() { PageMove(-1); });
 
 	FOR(6)
@@ -181,18 +196,49 @@ void Inventory::CreateInven()
 		int row = i / 3;
 		int col = i % 3;
 
-		Button* itemSlot = new Button(L"Resources/Textures/Shooting3/UI/Item_Level_0.png", { 480.0f + (col * 160.0f) , 405.0f - (row * 160.0f) });
+		Button* itemSlot = new Button(L"Resources/Textures/Shooting3/UI/Item_Level_0.png", { (CENTER_X - 160.f) + (col * 160.0f) , 415.0f - (row * 160.0f) });
 		itemSlots.push_back(itemSlot);
 	}
 
 	FOR(3)
 	{
 		wstring path = L"Resources/Textures/Shooting3/UI/EquipSlot_" + to_wstring(i + 1) + L".jpg";
-		Button* equipSlot = new Button(path, { 300.0f , 450.0f - (i * 160.0f) });
+		Button* equipSlot = new Button(path, { 230.0f + (i * 160.0f) , 730.0f });
 		equipSlots.push_back(equipSlot);
 	}
 
-	equipItems.resize(3);
-
 	SetActive(false);
+}
+
+bool Inventory::CheckIsItem(Item* checkItem)
+{
+	for (Item* item : items)
+	{
+		if (item->GetData().name == checkItem->GetData().name)
+			return true;
+	}
+
+	vector<Item*> equipItems = owner->GetEuipItems();
+	for (Item* item : equipItems)
+	{
+		if (item == nullptr) continue;
+		if (item->GetData().name == checkItem->GetData().name)
+			return true;
+	}
+	return false;
+}
+
+void Inventory::EarseItem(Item* checkItem)
+{
+	vector<Item*>::iterator iter = items.begin();
+
+	for (; iter != items.end();)
+	{
+		if ((*iter)->GetData().name != checkItem->GetData().name)
+			iter++;
+		else 
+			iter = items.erase(iter);
+	}
+
+	UpdateSlot();
 }

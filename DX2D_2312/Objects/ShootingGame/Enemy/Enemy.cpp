@@ -124,7 +124,7 @@ void Enemy::Damage(string key)
 		break;
 	}
 	Plane* plane = (Plane*)target;
-	hp -= (skillData.power+ plane->GetAttack()*0.1f);
+	hp -= (skillData.power + plane->GetAttack()*0.1f);
 	hpBar->SetAmount((float)hp / (float)data.maxHp);
 
 	if (hp <= 0)

@@ -16,12 +16,14 @@ Plane::Plane() : Quad(L"Resources/Textures/Shooting3/Player.png")
 	skills.push_back(new BaseSkill(this));
 	skills.push_back(new WheelSkill(this));
 
-	wstring hpFront = L"Resources/Textures/UI/hp_bar.png";
-	wstring hpBack = L"Resources/Textures/UI/hp_bar_BG.png";
+	wstring hpFront = L"Resources/Textures/Shooting3/UI/PlayerHpBar.png";
+	wstring hpBack = L"Resources/Textures/Shooting3/UI/HpBarBg.png";
 
 	hpBar = new ProgressBar(hpFront, hpBack);
-	hpBar->SetLocalPosition({ CENTER_X, SCREEN_HEIGHT * 0.9f });	
-	hpBar->UpdateWorld();
+	hpBarOffset = { 0, -size.y * 0.6f };
+	ObjectManager::Get()->Add(hpBar);
+
+	equipItems.resize(3);
 }
 
 Plane::~Plane()
@@ -47,6 +49,8 @@ void Plane::Update()
 		Translate(Vector2::Left() * speed * DELTA);
 	if (KEY->Press('D'))
 		Translate(Vector2::Right() * speed * DELTA);
+
+	hpBar->SetLocalPosition(localPosition + hpBarOffset);
 	//
 	//Vector2 direction = mousePos - localPosition;
 	//localRotation.z = direction.Angle();
@@ -75,6 +79,7 @@ void Plane::Render()
 	Quad::Render();
 	collider->Render();
 	cursor->Render();	
+	hpBar->Render();	
 }
 
 void Plane::PostRender()
@@ -91,7 +96,7 @@ void Plane::PostRender()
 		+ "," + to_string(itemAbility.hp) + "," + to_string(itemAbility.speed) + "]";
 	ImGui::Text(strAbility.c_str());
 
-	hpBar->Render();
+	//hpBar->Render();
 }
 
 void Plane::AddAbility(float attack, float defense, float hp, float speed)
@@ -101,8 +106,8 @@ void Plane::AddAbility(float attack, float defense, float hp, float speed)
 	itemAbility.hp += hp;
 	itemAbility.speed += speed;
 
-	this->speed += (speed * 0.1f);
-	this->hp += (hp * 0.1f);
+	this->speed += (speed * 0.5f);
+	this->hp += (hp * 0.5f);
 }
 
 void Plane::Collision()
@@ -112,8 +117,15 @@ void Plane::Collision()
 	if (bullet)
 	{
 		bullet->SetActive(false);
-		float damage = (10 - itemAbility.defense * 0.1f);
+		float damage = (10 - itemAbility.defense * 0.01f);
 		if (damage <= 0) return;
-		hp -= damage;
+
+		Damage(damage);
 	}
+}
+
+void Plane::Damage(int damage)
+{
+	hp -= damage;
+	hpBar->SetAmount((float)hp / (float)maxHp);
 }

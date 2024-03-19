@@ -10,6 +10,7 @@ private:
 		float hp = 0;
 		float speed = 0;
 	};
+
 public:
 	Plane();
 	~Plane();
@@ -26,8 +27,13 @@ public:
 	CircleCollider* GetCollider() { return collider; }
 	Quad* GetCursor() { return cursor; }
 
+	vector<Item*> GetEuipItems() { return equipItems; };
+	void SetEuipItems(int idx, Item* item) { equipItems[idx]=item; };
+
 private:
 	void Collision();
+	
+	void Damage(int damage);
 
 private:
 	float speed = 200.0f;
@@ -38,7 +44,12 @@ private:
 	vector<Skill*> skills;
 
 	int hp = 100;
+	int maxHp = 100;
 
 	ProgressBar* hpBar;
 	ItemAbility itemAbility;
+
+	vector<Item*> equipItems;
+
+	Vector2 hpBarOffset;
 };

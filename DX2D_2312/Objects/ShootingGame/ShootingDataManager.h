@@ -36,6 +36,7 @@ struct ItemData
 	float defense;
 	float hp;
 	float speed;
+	float value;
 	wstring textureFile;
 };
 

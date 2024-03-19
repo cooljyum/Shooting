@@ -13,7 +13,7 @@ ShootingGameScene::ShootingGameScene()
 	BulletManager::Get();
 	EnemyManager::Get()->SetTarget(plane);
 	ItemManager::Get()->SetTarget(plane);
-	InvenManager::Get()->SetTarget(plane);
+	InvenManager::Get()->SetOwner(plane);
 
 	SetBG();
 }

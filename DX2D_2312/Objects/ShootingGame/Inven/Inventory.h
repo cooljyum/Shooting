@@ -8,7 +8,7 @@ public:
 
 	void PostRender();
 
-	void SetTarget(Plane* transform) { target = transform; }
+	void SetOwner(Plane* owner) { this->owner = owner; }
 
 	void SetActive(bool isActive);
 
@@ -18,12 +18,15 @@ public:
 private:
 	void CreateInven();
 
+	bool CheckIsItem(Item* checkItem);
+	void EarseItem(Item* checkItem);
+
 	void UpdateSlot();
 
 	void PageMove(int n);
 
 private:
-	Plane* target;
+	Plane* owner;
 
 	bool isActive;
 	
@@ -42,6 +45,4 @@ private:
 	vector<Button*> equipSlots;
 
 	vector<Item*> items;
-	vector<Item*> equipItems;
-
 };

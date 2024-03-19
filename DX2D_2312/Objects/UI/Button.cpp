@@ -93,7 +93,12 @@ void Button::ClickEvent()
 
 	}
 	else 
+	{
 		state = NORMAL;
+
+		if (KEY->Up(VK_LBUTTON))
+			isDownCheck = false;
+	}
 
 	switch (state)
 	{

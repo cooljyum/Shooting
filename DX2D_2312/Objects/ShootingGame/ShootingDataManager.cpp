@@ -115,9 +115,10 @@ void ShootingDataManager::LoadItemData()
 		data.level = stoi(datas[3]);
 		data.attack = stof(datas[4]);
 		data.defense = stof(datas[5]);
-		data.hp = stof(datas[5]);
-		data.speed = stof(datas[6]);
-		data.textureFile = ToWString(datas[8]);
+		data.hp = stof(datas[6]);
+		data.speed = stof(datas[7]);
+		data.value = stof(datas[8]);
+		data.textureFile = ToWString(datas[9]);
 
 		itemDatas[data.key] = data;
 	}

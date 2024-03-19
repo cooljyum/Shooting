@@ -21,7 +21,7 @@ InvenManager::~InvenManager()
 
 void InvenManager::PostRender()
 {
-	invenBtn->RenderUI();
+	//invenBtn->RenderUI();
 
 	invenBtn->PostRender();
 	invenBtnTxt->PostRender();
