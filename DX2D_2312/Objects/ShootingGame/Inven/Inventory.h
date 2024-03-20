@@ -1,6 +1,6 @@
 #pragma once
 
-class Inventory 
+class Inventory : public Panel
 {
 public:
 	Inventory();

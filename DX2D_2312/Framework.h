@@ -118,6 +118,7 @@ typedef function<void(void*)> ObjectParamEvent; //반환값이 없는~
 #include "Objects/UI/ProgressBar.h"
 #include "Objects/UI/Sprite.h"
 #include "Objects/UI/Button.h"
+#include "Objects/UI/Panel.h"
 
 #include "Objects/ShootingGame/ShootingDataManager.h"
 #include "Objects/ShootingGame/Skill/Skill.h"

@@ -193,6 +193,7 @@
     <ClInclude Include="Objects\ShootingGame\Skill\WheelSkill.h" />
     <ClInclude Include="Objects\UI\Button.h" />
     <ClInclude Include="Objects\ShootingGame\UI\UIManager.h" />
+    <ClInclude Include="Objects\UI\Panel.h" />
     <ClInclude Include="Objects\UI\ProgressBar.h" />
     <ClInclude Include="Objects\UI\Sprite.h" />
     <ClInclude Include="Resource.h" />
@@ -254,6 +255,7 @@
     <ClCompile Include="Objects\ShootingGame\Skill\WheelBullet.cpp" />
     <ClCompile Include="Objects\ShootingGame\Skill\WheelSkill.cpp" />
     <ClCompile Include="Objects\UI\Button.cpp" />
+    <ClCompile Include="Objects\UI\Panel.cpp" />
     <ClCompile Include="Objects\UI\ProgressBar.cpp" />
     <ClCompile Include="Objects\UI\Sprite.cpp" />
     <ClCompile Include="Scenes\CollisionScene.cpp" />

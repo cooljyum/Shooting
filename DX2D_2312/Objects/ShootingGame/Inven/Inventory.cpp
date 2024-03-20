@@ -1,6 +1,6 @@
 #include "Framework.h"
 
-Inventory::Inventory()
+Inventory::Inventory() : Panel(L"Resources/Textures/Shooting3/UI/toggle_bg.png")
 {
 	CreateInven();
 
@@ -35,6 +35,7 @@ Inventory::~Inventory()
 
 void Inventory::Update()
 {
+	Panel::Update();
 	invenBg->Update();
 	invenTitle->Update();
 	invenTitleTxt->Update();
@@ -62,6 +63,7 @@ void Inventory::PostRender()
 	string str = "Inven CurPage : " + to_string(page);
 	ImGui::Text(str.c_str());
 
+	Panel::Render();
 	invenBg->PostRender();
 	invenTitle->PostRender();
 	invenTitleTxt->PostRender();
