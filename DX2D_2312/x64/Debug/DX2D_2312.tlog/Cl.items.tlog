@@ -17,6 +17,7 @@ F:\git\Shooting\DX2D_2312\Framework\Shader\PixelShader.cpp;F:\git\Shooting\DX2D_
 F:\git\Shooting\DX2D_2312\Framework\Shader\Shader.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Shader.obj
 F:\git\Shooting\DX2D_2312\Framework\Shader\VertexShader.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\VertexShader.obj
 F:\git\Shooting\DX2D_2312\Framework\Utilities\Keyboard.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Keyboard.obj
+F:\git\Shooting\DX2D_2312\Framework\Utilities\Observer.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Observer.obj
 F:\git\Shooting\DX2D_2312\Framework\Utilities\Timer.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Timer.obj
 F:\git\Shooting\DX2D_2312\Framework\Utilities\Utility.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Utility.obj
 F:\git\Shooting\DX2D_2312\Manager\GameManager.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\GameManager.obj
@@ -25,7 +26,8 @@ F:\git\Shooting\DX2D_2312\Objects\Basic\GameObject.cpp;F:\git\Shooting\DX2D_2312
 F:\git\Shooting\DX2D_2312\Objects\Basic\ObjectManager.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\ObjectManager.obj
 F:\git\Shooting\DX2D_2312\Objects\Basic\Quad.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Quad.obj
 F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Background.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Background.obj
-F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Inven\InvenManager.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\InvenManager.obj
+F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Inven\Synthesis.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Synthesis.obj
+F:\git\Shooting\DX2D_2312\Objects\ShootingGame\UI\UIManager.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\UIManager.obj
 F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Inven\Inventory.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Inventory.obj
 F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Item\Item.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Item.obj
 F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Item\ItemManager.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\ItemManager.obj

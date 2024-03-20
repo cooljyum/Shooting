@@ -27,8 +27,8 @@ public:
 	CircleCollider* GetCollider() { return collider; }
 	Quad* GetCursor() { return cursor; }
 
-	vector<Item*> GetEuipItems() { return equipItems; };
-	void SetEuipItems(int idx, Item* item) { equipItems[idx]=item; };
+	vector<pair<Item*, int>> GetEuipItems() { return equipItems; };
+	void SetEuipItems(int idx, Item* item, int cnt = NULL) { equipItems[idx] = { item, cnt }; }
 
 private:
 	void Collision();
@@ -49,7 +49,7 @@ private:
 	ProgressBar* hpBar;
 	ItemAbility itemAbility;
 
-	vector<Item*> equipItems;
+	vector<pair<Item*, int>> equipItems;
 
 	Vector2 hpBarOffset;
 };

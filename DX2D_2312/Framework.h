@@ -76,6 +76,7 @@ typedef function<void(void*)> ObjectParamEvent; //반환값이 없는~
 #include "Framework/Utilities/Keyboard.h"
 #include "Framework/Utilities/Timer.h"
 #include "Framework/Utilities/Utility.h"
+#include "Framework/Utilities/Observer.h"
 
 #include "Framework/Device/Device.h"
 
@@ -127,9 +128,9 @@ typedef function<void(void*)> ObjectParamEvent; //반환값이 없는~
 #include "Objects/ShootingGame/Plane.h"
 #include "Objects/ShootingGame/Background.h"
 
-
 #include "Objects/ShootingGame/Inven/Inventory.h"
-#include "Objects/ShootingGame/Inven/InvenManager.h"
+#include "Objects/ShootingGame/Inven/Synthesis.h"
+#include "Objects/ShootingGame/UI/UIManager.h"
 
 //Scene Header
 #include "Scenes/Scene.h"

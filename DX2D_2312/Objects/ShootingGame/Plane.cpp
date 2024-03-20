@@ -24,6 +24,8 @@ Plane::Plane() : Quad(L"Resources/Textures/Shooting3/Player.png")
 	ObjectManager::Get()->Add(hpBar);
 
 	equipItems.resize(3);
+
+	//Observer::Get()->AddIntEvent("SkillLevelUp",bind(&Plane::SkillLevelUp, this, placeholders::_1));
 }
 
 Plane::~Plane()
@@ -96,6 +98,15 @@ void Plane::PostRender()
 		+ "," + to_string(itemAbility.hp) + "," + to_string(itemAbility.speed) + "]";
 	ImGui::Text(strAbility.c_str());
 
+
+	string strEquipItems = "EquipItems[";
+	for (const auto& pair : equipItems) {
+		if (pair.first == nullptr) continue;
+		strEquipItems += " (" + pair.first->GetData().name + ", " + std::to_string(pair.second) + ")";
+	}
+	strEquipItems += " ]";
+	ImGui::Text(strEquipItems.c_str());
+\
 	//hpBar->Render();
 }
 

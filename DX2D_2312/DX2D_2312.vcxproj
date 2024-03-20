@@ -163,6 +163,7 @@
     <ClInclude Include="Framework\Shader\Shader.h" />
     <ClInclude Include="Framework\Shader\VertexShader.h" />
     <ClInclude Include="Framework\Utilities\Keyboard.h" />
+    <ClInclude Include="Framework\Utilities\Observer.h" />
     <ClInclude Include="Framework\Utilities\Timer.h" />
     <ClInclude Include="Framework\Utilities\Utility.h" />
     <ClInclude Include="Manager\GameManager.h" />
@@ -173,6 +174,7 @@
     <ClInclude Include="Objects\Basic\Quad.h" />
     <ClInclude Include="Objects\ShootingGame\Background.h" />
     <ClInclude Include="Objects\ShootingGame\Inven\Inventory.h" />
+    <ClInclude Include="Objects\ShootingGame\Inven\Synthesis.h" />
     <ClInclude Include="Objects\ShootingGame\Item\Item.h" />
     <ClInclude Include="Objects\ShootingGame\Item\ItemManager.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\BaseBullet.h" />
@@ -189,7 +191,7 @@
     <ClInclude Include="Objects\ShootingGame\Skill\WheelBullet.h" />
     <ClInclude Include="Objects\ShootingGame\Skill\WheelSkill.h" />
     <ClInclude Include="Objects\UI\Button.h" />
-    <ClInclude Include="Objects\ShootingGame\Inven\InvenManager.h" />
+    <ClInclude Include="Objects\ShootingGame\UI\UIManager.h" />
     <ClInclude Include="Objects\UI\ProgressBar.h" />
     <ClInclude Include="Objects\UI\Sprite.h" />
     <ClInclude Include="Resource.h" />
@@ -222,6 +224,7 @@
     <ClCompile Include="Framework\Shader\Shader.cpp" />
     <ClCompile Include="Framework\Shader\VertexShader.cpp" />
     <ClCompile Include="Framework\Utilities\Keyboard.cpp" />
+    <ClCompile Include="Framework\Utilities\Observer.cpp" />
     <ClCompile Include="Framework\Utilities\Timer.cpp" />
     <ClCompile Include="Framework\Utilities\Utility.cpp" />
     <ClCompile Include="Manager\GameManager.cpp" />
@@ -230,7 +233,8 @@
     <ClCompile Include="Objects\Basic\ObjectManager.cpp" />
     <ClCompile Include="Objects\Basic\Quad.cpp" />
     <ClCompile Include="Objects\ShootingGame\Background.cpp" />
-    <ClCompile Include="Objects\ShootingGame\Inven\InvenManager.cpp" />
+    <ClCompile Include="Objects\ShootingGame\Inven\Synthesis.cpp" />
+    <ClCompile Include="Objects\ShootingGame\UI\UIManager.cpp" />
     <ClCompile Include="Objects\ShootingGame\Inven\Inventory.cpp" />
     <ClCompile Include="Objects\ShootingGame\Item\Item.cpp" />
     <ClCompile Include="Objects\ShootingGame\Item\ItemManager.cpp" />

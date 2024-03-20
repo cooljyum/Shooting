@@ -14,12 +14,14 @@ private:
 
 public:
 	Button(wstring path = L"Resources / Textures / Shooting3 / UI / equipTxt_B.png");
-	Button(wstring path, Vector2 pos);
+	Button(wstring textureFile = L"Resources/Textures/UI/Button.png", bool isAdd = false);
+	Button(wstring path, Vector2 pos, bool isAdd = false);
 	~Button();
 	void Update() override;
 	
 	void Render() override;
 	void PostRender();
+
 	void Collision();
 
 	void ClickEvent();

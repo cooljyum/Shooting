@@ -6,14 +6,19 @@ public:
 	Inventory();
 	~Inventory();
 
+	void Update();
+
 	void PostRender();
 
 	void SetOwner(Plane* owner) { this->owner = owner; }
 
 	void SetActive(bool isActive);
 
-	void AddItem(Item* item);
-	void AddEquipItem(int type, Item* item = nullptr);
+	void AddItem(Item* item, int cnt = 1);
+	void AddEquipItem(int type, Item* item = nullptr, int cnt = NULL);
+
+	vector<pair<Item*, int>> GetItems() { return items; }
+
 
 private:
 	void CreateInven();
@@ -44,5 +49,8 @@ private:
 	vector<Button*> itemSlots;
 	vector<Button*> equipSlots;
 
-	vector<Item*> items;
+	vector<pair<Item*, int>> items;
+
+	Button* synthesisBtn;
+
 };

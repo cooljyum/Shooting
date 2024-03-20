@@ -49,7 +49,7 @@ void Item::Collision()
 	if (collider->IsCollision(plane->GetCollider()))
 	{
 		if(this->data.type > 0)
-			InvenManager::Get()->GetInVen()->AddItem(this);
+			UIManager::Get()->GetInVen()->AddItem(this);
 		SetActive(false);
 	}
 }

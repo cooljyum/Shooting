@@ -6,7 +6,13 @@ Button::Button(wstring path) : Quad(path)
 	collider->SetParent(this);
 }
 
-Button::Button(wstring path, Vector2 pos) : Quad(path)
+Button::Button(wstring textureFile, bool isAdd) : Quad(textureFile, isAdd)
+{
+	collider = new RectCollider(size);
+	collider->SetParent(this);
+}
+
+Button::Button(wstring path, Vector2 pos, bool isAdd) : Quad(path, isAdd)
 {
 	collider = new RectCollider(size);
 	collider->SetParent(this);
@@ -41,7 +47,10 @@ void Button::Update()
 
 void Button::Render()
 {
+	if (!IsActive()) return;
 
+	Quad::Render();
+	collider->Render();
 }
 
 void Button::PostRender()
