@@ -23,7 +23,7 @@ Device::Device()
         nullptr,
         D3D_DRIVER_TYPE_HARDWARE,
         0,
-        D3D11_CREATE_DEVICE_DEBUG,
+        D3D11_CREATE_DEVICE_DEBUG | D3D11_CREATE_DEVICE_BGRA_SUPPORT,
         nullptr,
         0,
         D3D11_SDK_VERSION,

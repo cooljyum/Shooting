@@ -162,6 +162,7 @@
     <ClInclude Include="Framework\Shader\PixelShader.h" />
     <ClInclude Include="Framework\Shader\Shader.h" />
     <ClInclude Include="Framework\Shader\VertexShader.h" />
+    <ClInclude Include="Framework\Utilities\Font.h" />
     <ClInclude Include="Framework\Utilities\Keyboard.h" />
     <ClInclude Include="Framework\Utilities\Observer.h" />
     <ClInclude Include="Framework\Utilities\Timer.h" />
@@ -223,6 +224,7 @@
     <ClCompile Include="Framework\Shader\PixelShader.cpp" />
     <ClCompile Include="Framework\Shader\Shader.cpp" />
     <ClCompile Include="Framework\Shader\VertexShader.cpp" />
+    <ClCompile Include="Framework\Utilities\Font.cpp" />
     <ClCompile Include="Framework\Utilities\Keyboard.cpp" />
     <ClCompile Include="Framework\Utilities\Observer.cpp" />
     <ClCompile Include="Framework\Utilities\Timer.cpp" />

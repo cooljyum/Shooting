@@ -29,7 +29,7 @@ private:
     ID2D1Device* device;
     ID2D1DeviceContext* context;
 
-    ID2D1Bitmap1* targetBitmap;
+    ID2D1Bitmap1* targetBitmap; //·»´õ Å¸°Ù
 
     map<string, ID2D1SolidColorBrush*> brushes;
     map<string, IDWriteTextFormat*> formats;

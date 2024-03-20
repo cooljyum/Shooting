@@ -41,7 +41,14 @@ void GameManager::Render()
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
 
+	Font::Get()->SetColor("White");
+	Font::Get()->SetStyle("Default");
+
+	Font::Get()->GetDC()->BeginDraw(); // 출력 관여 하는 얘
+
 	string fps = "FPS : " + to_string(Timer::Get()->GetFPS());
+	Font::Get()->RenderText(fps, {100, SCREEN_HEIGHT-10});
+
 	ImGui::Text(fps.c_str());
 
 	ObjectManager::Get()->Render();
@@ -50,6 +57,7 @@ void GameManager::Render()
 	ImGui::Render();
 	ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
 
+	Font::Get()->GetDC()->EndDraw();
 	Device::Get()->Present();
 
 }
@@ -59,12 +67,17 @@ void GameManager::Create()
 	Keyboard::Get();
 	Timer::Get();
 	Environment::Get();
+	Font::Get();
 
 	ImGui::CreateContext();
 	ImGui::StyleColorsDark();
 
 	ImGui_ImplWin32_Init(hWnd);
 	ImGui_ImplDX11_Init(DEVICE, DC);
+
+	Font::Get()->AddColor("White", 1, 1, 1);
+	Font::Get()->AddStyle("Default", L"배달의민족 주아");
+
 }
 
 void GameManager::Delete()
