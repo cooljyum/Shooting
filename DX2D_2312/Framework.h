@@ -56,6 +56,13 @@
 
 #pragma comment(lib, "ImGui.lib")
 
+//DirectWrite
+#include <d2d1_2.h>
+#include <dwrite.h>
+
+#pragma comment(lib, "d2d1.lib")
+#pragma comment(lib, "dwrite.lib")
+
 using namespace std;
 using namespace DirectX;
 
@@ -77,6 +84,7 @@ typedef function<void(void*)> ObjectParamEvent; //반환값이 없는~
 #include "Framework/Utilities/Timer.h"
 #include "Framework/Utilities/Utility.h"
 #include "Framework/Utilities/Observer.h"
+#include "Framework/Utilities/Font.h"
 
 #include "Framework/Device/Device.h"
 
