@@ -133,7 +133,7 @@ void Synthesis::AddItem(Item* item, int cnt)
 
 void Synthesis::AddSynhesisItem(int type, Item* item, int cnt)
 {
-	if (type > 3 || type < 0) return;
+	if (synthesisItems.size()>=3) return;
 
 	int idx = type;
 	
@@ -242,16 +242,14 @@ void Synthesis::EarseSynhesisItem(Item* checkItem)
 	for (auto iter = synthesisItems.begin(); iter != synthesisItems.end();)
 	{
 		if (iter->first->GetData().name != checkItem->GetData().name)
+		{
 			iter++;
+			
+		}
 		else
 		{
-			if (iter->second > 1)
-			{
-				iter->second -= 1;
-				break;
-			}
-			else
-				iter = synthesisItems.erase(iter);
+			iter = synthesisItems.erase(iter);
+			break;
 		}
 	}
 
