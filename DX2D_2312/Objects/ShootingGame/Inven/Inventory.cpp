@@ -74,15 +74,32 @@ void Inventory::PostRender()
 
 	synthesisBtn->RenderUI();
 
-	for (Button* itemSlot : itemSlots)
+	Font::Get()->SetColor("White");
+	Font::Get()->SetStyle("Default");
+
+	int start = (page - 1) * 6;
+	int end = items.size() < start + 6 ? items.size() : start + 6;
+
+	FOR (itemSlots.size())
 	{
-		itemSlot->PostRender();
+		itemSlots[i]->PostRender();
+
+		if (!itemSlots[i]->IsActive()) continue;
+
+		if (start < end)
+		{
+			Vector2 pos = itemSlots[i]->GetGlobalPosition() + Vector2(30, -30);
+			Font::Get()->RenderText(to_string(items[start].second), pos);
+			start++;
+		}
 	}
+
 	
 	for (Button* equipSlot : equipSlots)
 	{
 		equipSlot->PostRender();
 	}
+
 }
 
 void Inventory::SetActive(bool isActive)
@@ -139,6 +156,7 @@ void Inventory::AddEquipItem(int type, Item* item, int cnt)
 	if (type > 3 || type < 0) return;
 	int idx = (type - 1);
 
+
 	if (item == nullptr) 
 	{
 		Item* item = owner->GetEuipItems()[idx].first;
@@ -147,6 +165,7 @@ void Inventory::AddEquipItem(int type, Item* item, int cnt)
 
 		owner->SetEuipItems(idx, nullptr);
 		equipSlots[idx]->SetFrontImgActive(false);
+		equipSlots[idx]->SetEvent();
 		
 		AddItem(item, cnt);
 		
@@ -193,7 +212,8 @@ void Inventory::UpdateSlot()
 			wstring path = L"Resources/Textures/Shooting3/Item/";
 			itemSlots[i]->SetFrontImg(path + itemdata.textureFile);
 			itemSlots[i]->SetEvent([this, itemdata, index = startPos + i, item, itemSlot = itemSlots[i]]() {
-				AddEquipItem(itemdata.type, items[index].first, items[index].second);
+				if (CheckIsEquipItem(item)) return;
+				AddEquipItem(itemdata.type, items[index].first, 1);
 				EarseItem(item);
 
 				});
@@ -258,19 +278,22 @@ bool Inventory::CheckIsItem(Item* checkItem)
 			item.second++;
 			return true;
 		}
-			
 	}
 
+	return false;
+}
+
+bool Inventory::CheckIsEquipItem(Item* checkItem)
+{
 	vector<pair<Item*, int>> equipItems = owner->GetEuipItems();
 	for (int idx = 0; idx < equipItems.size(); ++idx) {
 		auto& itemPair = equipItems[idx];
-		if (itemPair.first == nullptr) continue; 
+		if (itemPair.first == nullptr) continue;
 		if (itemPair.first->GetData().name == checkItem->GetData().name) {
 			owner->SetEuipItems(idx, itemPair.first, itemPair.second + 1);
 			return true;
 		}
 	}
-
 	return false;
 }
 
@@ -281,8 +304,16 @@ void Inventory::EarseItem(Item* checkItem)
 	{
 		if (iter->first->GetData().name != checkItem->GetData().name)
 			iter++;
-		else 
-			iter = items.erase(iter);
+		else
+		{
+			if (iter->second > 1)
+			{
+				iter->second -= 1;
+				break;
+			}
+			else
+				iter = items.erase(iter);
+		}
 	}
 
 	UpdateSlot();

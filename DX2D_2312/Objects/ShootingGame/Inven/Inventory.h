@@ -8,7 +8,7 @@ public:
 
 	void Update();
 
-	void PostRender();
+	virtual void  PostRender();
 
 	void SetOwner(Plane* owner) { this->owner = owner; }
 
@@ -19,16 +19,17 @@ public:
 
 	vector<pair<Item*, int>> GetItems() { return items; }
 
+	void PageMove(int n);
 
 private:
-	void CreateInven();
+	virtual void CreateInven();
 
 	bool CheckIsItem(Item* checkItem);
+	bool CheckIsEquipItem(Item* checkItem);
 	void EarseItem(Item* checkItem);
 
 	void UpdateSlot();
 
-	void PageMove(int n);
 
 private:
 	Plane* owner;

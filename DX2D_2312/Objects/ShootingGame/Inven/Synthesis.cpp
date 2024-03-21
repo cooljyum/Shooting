@@ -21,13 +21,13 @@ Synthesis::~Synthesis()
 		delete itemSlot;
 	}
 
-	for (Button* equipSlot : synthesisSlots)
+	for (Button* synthesisSlot : synthesisSlots)
 	{
-		delete equipSlot;
+		delete synthesisSlot;
 	}
 
 	for (const auto& pair : items) {
-		delete pair.first;
+	//	delete pair.first;
 	}
 }
 
@@ -44,9 +44,9 @@ void Synthesis::Update()
 		itemSlot->Update();
 	}
 
-	for (Button* equipSlot : synthesisSlots)
+	for (Button* synthesisSlot : synthesisSlots)
 	{
-		equipSlot->Update();
+		synthesisSlot->Update();
 	}
 }
 
@@ -64,15 +64,27 @@ void Synthesis::PostRender()
 	nextBtn->PostRender();
 	prevBtn->PostRender();
 
-	for (Button* itemSlot : itemSlots)
+	int start = (page - 1) * 6;
+	int end = items.size() < start + 6 ? items.size() : start + 6;
+
+	FOR(itemSlots.size())
 	{
-		itemSlot->PostRender();
+		itemSlots[i]->PostRender();
+
+		if (!itemSlots[i]->IsActive()) continue;
+
+		if (start < end)
+		{
+			Vector2 pos = itemSlots[i]->GetGlobalPosition() + Vector2(30, -30);
+			Font::Get()->RenderText(to_string(items[start].second), pos);
+			start++;
+		}
 	}
 
-	for (Button* equipSlot : synthesisSlots)
+	for (Button* synthesisSlot : synthesisSlots)
 	{
-		equipSlot->PostRender();
-		equipSlot->RenderUI();
+		synthesisSlot->PostRender();
+		synthesisSlot->RenderUI();
 	}
 }
 
@@ -99,21 +111,58 @@ void Synthesis::SetActive(bool isActive)
 	FOR(3)
 	{
 		synthesisSlots[i]->SetActive(isActive);
-		if (owner)
-			if (owner->GetEuipItems()[i].first != nullptr)
+
+		if (i < synthesisItems.size()) 
+		{
+			if (synthesisItems[i].first != nullptr)
 				synthesisSlots[i]->SetFrontImgActive(isActive);
 			else
 				synthesisSlots[i]->SetFrontImgActive(false);
+		}
 	}
 	UpdateSlot();
 }
 
 void Synthesis::AddItem(Item* item, int cnt)
 {
+	if (CheckIsItem(item)) return;
+
+	items.push_back(make_pair(item, cnt));
+	UpdateSlot();
 }
 
-void Synthesis::AddEquipItem(int type, Item* item, int cnt)
+void Synthesis::AddSynhesisItem(int type, Item* item, int cnt)
 {
+	if (type > 3 || type < 0) return;
+
+	int idx = type;
+	
+	if (item == nullptr)
+	{
+		Item* item = synthesisItems[idx].first;
+		int cnt = synthesisItems[idx].second;
+		ItemData itemdata = item->GetData();
+
+		EarseSynhesisItem(item);
+
+		//synthesisSlots[idx]->SetFrontImgActive(false);
+		//synthesisSlots[idx]->SetEvent();
+
+		AddItem(item, cnt);
+
+		UpdateSynhesisSlot();
+		
+		return;
+	}
+	synthesisItems.push_back({ item,cnt });
+
+	//ItemData itemdata = item->GetData();
+	//synthesisSlots[idx]->SetFrontImg(L"Resources/Textures/Shooting3/Item/" + itemdata.textureFile);
+	//synthesisSlots[idx]->SetFrontImgActive(true);
+	//synthesisSlots[idx]->SetEvent([this, type]() { AddSynhesisItem(type); });
+
+	UpdateSynhesisSlot();
+
 }
 
 void Synthesis::CreateInven()
@@ -145,20 +194,68 @@ void Synthesis::CreateInven()
 	FOR(3)
 	{
 		wstring path = L"Resources/Textures/Shooting3/UI/Item_Level_0.png";
-		Button* equipSlot = new Button(path, { 215.0f + (i * 200.0f) , 580.0f }, false);
-		synthesisSlots.push_back(equipSlot);
+		Button* synthesisSlot = new Button(path, { 215.0f + (i * 200.0f) , 580.0f }, false);
+		synthesisSlots.push_back(synthesisSlot);
 	}
+
 
 	SetActive(false);
 }
 
 bool Synthesis::CheckIsItem(Item* checkItem)
 {
+	for (auto& item : items)
+	{
+		if (item.first->GetData().name == checkItem->GetData().name)
+		{
+			item.second++;
+			return true;
+		}
+	}
+
     return false;
 }
 
 void Synthesis::EarseItem(Item* checkItem)
 {
+	for (auto iter = items.begin(); iter != items.end();)
+	{
+		if (iter->first->GetData().name != checkItem->GetData().name)
+			iter++;
+		else
+		{
+			if (iter->second > 1)
+			{
+				iter->second -= 1;
+				break;
+			}
+			else
+				iter = items.erase(iter);
+		}
+	}
+
+	UpdateSlot();
+}
+
+void Synthesis::EarseSynhesisItem(Item* checkItem)
+{
+	for (auto iter = synthesisItems.begin(); iter != synthesisItems.end();)
+	{
+		if (iter->first->GetData().name != checkItem->GetData().name)
+			iter++;
+		else
+		{
+			if (iter->second > 1)
+			{
+				iter->second -= 1;
+				break;
+			}
+			else
+				iter = synthesisItems.erase(iter);
+		}
+	}
+
+	UpdateSynhesisSlot();
 }
 
 void Synthesis::UpdateSlot()
@@ -188,7 +285,7 @@ void Synthesis::UpdateSlot()
 			wstring path = L"Resources/Textures/Shooting3/Item/";
 			itemSlots[i]->SetFrontImg(path + itemdata.textureFile);
 			itemSlots[i]->SetEvent([this, itemdata, index = startPos + i, item, itemSlot = itemSlots[i]]() {
-				AddEquipItem(itemdata.type, items[index].first, items[index].second);
+				AddSynhesisItem(synthesisItems.size(), items[index].first, items[index].second);
 				EarseItem(item);
 
 				});
@@ -200,6 +297,32 @@ void Synthesis::UpdateSlot()
 	}
 }
 
+void Synthesis::UpdateSynhesisSlot()
+{
+	FOR(3)
+	{
+		if (i < synthesisItems.size()) {
+			synthesisSlots[i]->SetFrontImgActive(isActive);
+			Item* item = synthesisItems[i].first;
+			ItemData itemdata = item->GetData();
+			wstring path = L"Resources/Textures/Shooting3/Item/";
+			synthesisSlots[i]->SetFrontImg(path + itemdata.textureFile);
+			synthesisSlots[i]->SetEvent([this,  item]() {
+				AddItem(item, 1);
+				EarseSynhesisItem(item);
+				});
+		}
+		else {
+			synthesisSlots[i]->SetFrontImgActive(false);
+			synthesisSlots[i]->SetEvent();
+		}
+	}
+}
+
 void Synthesis::PageMove(int n)
 {
+	if (page + n > maxPage || page + n <= 0) return;
+
+	page += n;
+	UpdateSlot();
 }

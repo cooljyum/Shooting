@@ -195,6 +195,12 @@
     <ClInclude Include="Framework\Utilities\Observer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Framework\Utilities\Font.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\UI\Panel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="Objects\ShootingGame\Inven\Synthesis.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -351,6 +357,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Framework\Utilities\Observer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utilities\Font.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\UI\Panel.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Objects\ShootingGame\Inven\Synthesis.cpp">

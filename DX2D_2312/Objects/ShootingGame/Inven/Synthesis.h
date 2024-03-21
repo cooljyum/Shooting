@@ -17,15 +17,17 @@ public:
 	void SetItems(vector<pair<Item*, int>> items ) { this->items = items; }
 
 	void AddItem(Item* item, int cnt = 1);
-	void AddEquipItem(int type, Item* item = nullptr, int cnt = NULL);
+	void AddSynhesisItem(int type, Item* item = nullptr, int cnt = NULL);
 
 private:
 	void CreateInven();
 
 	bool CheckIsItem(Item* checkItem);
 	void EarseItem(Item* checkItem);
+	void EarseSynhesisItem(Item* checkItem);
 
 	void UpdateSlot();
+	void UpdateSynhesisSlot();
 
 	void PageMove(int n);
 
@@ -48,6 +50,7 @@ private:
 	vector<Button*> synthesisSlots;
 
 	vector<pair<Item*, int>> items;
+	vector<pair<Item*, int>> synthesisItems;
 
 
 };
