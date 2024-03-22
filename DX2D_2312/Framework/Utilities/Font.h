@@ -7,7 +7,19 @@ public:
     ~Font();
 
     void AddColor(string key, float r, float g, float b);
+
     void AddStyle(string key, wstring font, float size = 20.0f,
+        DWRITE_FONT_WEIGHT weight = DWRITE_FONT_WEIGHT_NORMAL,
+        DWRITE_FONT_STYLE style = DWRITE_FONT_STYLE_NORMAL,
+        DWRITE_FONT_STRETCH stretch = DWRITE_FONT_STRETCH_NORMAL);
+
+    //LEADING : 왼쪽 정렬
+    //TRAILING : 오른쪽 정렬
+    //Far : 위쪽 정렬
+    //Near : 아래쪽 정렬
+    void AddStyle(string key, wstring font, float size = 20.0f,
+        DWRITE_TEXT_ALIGNMENT alignment = DWRITE_TEXT_ALIGNMENT_CENTER,
+        DWRITE_PARAGRAPH_ALIGNMENT paragraphAligment = DWRITE_PARAGRAPH_ALIGNMENT_CENTER,
         DWRITE_FONT_WEIGHT weight = DWRITE_FONT_WEIGHT_NORMAL,
         DWRITE_FONT_STYLE style = DWRITE_FONT_STYLE_NORMAL,
         DWRITE_FONT_STRETCH stretch = DWRITE_FONT_STRETCH_NORMAL);

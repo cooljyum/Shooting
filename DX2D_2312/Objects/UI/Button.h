@@ -26,7 +26,21 @@ public:
 
 	void ClickEvent();
 
-	void SetEvent(Event clickEvent = nullptr) { this->clickEvent = clickEvent; }
+	void SetEvent(Event event) { clickEvent = event; }
+	void SetIntEvent(IntParamEvent event, int param)
+	{
+		clickIntParamEvent = event, intParam = param;
+	}
+	void SetObjectEvent(ObjectParamEvent event, void* param)
+	{
+		clickObjectParamEvent = event, objectParam = param;
+	}
+
+	void SetText(string text) { this->text = text; }
+	void SetTextData(string color, string style)
+	{
+		textColor = color, textStyle = style;
+	}
 
 	void SetFrontImg(wstring textureFile) { this->frontImg->SetTexture(textureFile); isFront = true; }
 	void SetFrontImgActive(bool isActive) { frontImg->SetActive(isActive); }
@@ -41,6 +55,16 @@ private:
 	State state = NORMAL;
 
 	Event clickEvent = nullptr;
+	IntParamEvent clickIntParamEvent = nullptr;
+	ObjectParamEvent clickObjectParamEvent = nullptr;
+
 
 	bool isDownCheck = false;
+
+	string text;
+	string textColor = "Black";
+	string textStyle = "Button";
+
+	int intParam = 0;
+	void* objectParam = nullptr;
 };

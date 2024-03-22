@@ -70,6 +70,20 @@ void Font::AddStyle(string key, wstring font, float size, DWRITE_FONT_WEIGHT wei
 	formats[key] = format;
 }
 
+void Font::AddStyle(string key, wstring font, float size, DWRITE_TEXT_ALIGNMENT alignment, DWRITE_FONT_WEIGHT weight, DWRITE_FONT_STYLE style, DWRITE_FONT_STRETCH stretch)
+{
+	if (formats.count(key) > 0) return;
+
+	IDWriteTextFormat* format;
+
+	writeFactory->CreateTextFormat(font.c_str(), nullptr,
+		weight, style, stretch, size, L"ko", &format);
+
+	format->SetTextAlignment(alignment);
+	formats[key] = format;
+
+}
+
 void Font::SetColor(string key)
 {
 	if (brushes.count(key) == 0) return;

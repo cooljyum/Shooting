@@ -36,6 +36,7 @@ void Panel::Drag()
 	if (KEY->Down(VK_LBUTTON))
 		offset = mousePos - GetGlobalPosition();
 
-	if (KEY->Press(VK_LBUTTON))
-		localPosition = mousePos - offset;
+
+
+
 }
