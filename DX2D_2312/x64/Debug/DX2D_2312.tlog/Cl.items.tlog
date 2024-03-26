@@ -16,6 +16,7 @@ F:\git\Shooting\DX2D_2312\Framework\Render\Texture.cpp;F:\git\Shooting\DX2D_2312
 F:\git\Shooting\DX2D_2312\Framework\Shader\PixelShader.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\PixelShader.obj
 F:\git\Shooting\DX2D_2312\Framework\Shader\Shader.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Shader.obj
 F:\git\Shooting\DX2D_2312\Framework\Shader\VertexShader.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\VertexShader.obj
+F:\git\Shooting\DX2D_2312\Framework\Utilities\Font.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Font.obj
 F:\git\Shooting\DX2D_2312\Framework\Utilities\Keyboard.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Keyboard.obj
 F:\git\Shooting\DX2D_2312\Framework\Utilities\Observer.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Observer.obj
 F:\git\Shooting\DX2D_2312\Framework\Utilities\Timer.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Timer.obj
@@ -45,6 +46,7 @@ F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Skill\Skill.cpp;F:\git\Shooting\D
 F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Skill\WheelBullet.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\WheelBullet.obj
 F:\git\Shooting\DX2D_2312\Objects\ShootingGame\Skill\WheelSkill.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\WheelSkill.obj
 F:\git\Shooting\DX2D_2312\Objects\UI\Button.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Button.obj
+F:\git\Shooting\DX2D_2312\Objects\UI\Panel.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Panel.obj
 F:\git\Shooting\DX2D_2312\Objects\UI\ProgressBar.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\ProgressBar.obj
 F:\git\Shooting\DX2D_2312\Objects\UI\Sprite.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\Sprite.obj
 F:\git\Shooting\DX2D_2312\Scenes\CollisionScene.cpp;F:\git\Shooting\DX2D_2312\x64\Debug\CollisionScene.obj

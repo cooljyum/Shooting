@@ -26,7 +26,7 @@ public:
 
 	void ClickEvent();
 
-	void SetEvent(Event event) { clickEvent = event; }
+	void SetEvent(Event event = nullptr) { clickEvent = event; }
 	void SetIntEvent(IntParamEvent event, int param)
 	{
 		clickIntParamEvent = event, intParam = param;
