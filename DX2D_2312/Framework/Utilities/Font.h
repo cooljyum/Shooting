@@ -8,18 +8,13 @@ public:
 
     void AddColor(string key, float r, float g, float b);
 
+    //DWRITE_TEXT_ALIGNMENT_LEADING : 왼쪽정렬    
+    //DWRITE_TEXT_ALIGNMENT_TRAILING : 오른쪽정렬
+    //DWRITE_PARAGRAPH_ALIGNMENT_FAR : 위쪽정렬
+    //DWRITE_PARAGRAPH_ALIGNMENT_NEAR : 아랫쪽정렬
     void AddStyle(string key, wstring font, float size = 20.0f,
-        DWRITE_FONT_WEIGHT weight = DWRITE_FONT_WEIGHT_NORMAL,
-        DWRITE_FONT_STYLE style = DWRITE_FONT_STYLE_NORMAL,
-        DWRITE_FONT_STRETCH stretch = DWRITE_FONT_STRETCH_NORMAL);
-
-    //LEADING : 왼쪽 정렬
-    //TRAILING : 오른쪽 정렬
-    //Far : 위쪽 정렬
-    //Near : 아래쪽 정렬
-    void AddStyle(string key, wstring font, float size = 20.0f,
-        DWRITE_TEXT_ALIGNMENT alignment = DWRITE_TEXT_ALIGNMENT_CENTER,
-        DWRITE_PARAGRAPH_ALIGNMENT paragraphAligment = DWRITE_PARAGRAPH_ALIGNMENT_CENTER,
+        DWRITE_TEXT_ALIGNMENT textAlignment = DWRITE_TEXT_ALIGNMENT_TRAILING,
+        DWRITE_PARAGRAPH_ALIGNMENT paragraphAlignment = DWRITE_PARAGRAPH_ALIGNMENT_CENTER,
         DWRITE_FONT_WEIGHT weight = DWRITE_FONT_WEIGHT_NORMAL,
         DWRITE_FONT_STYLE style = DWRITE_FONT_STYLE_NORMAL,
         DWRITE_FONT_STRETCH stretch = DWRITE_FONT_STRETCH_NORMAL);
