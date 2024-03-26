@@ -31,6 +31,13 @@ private:
 
 	void PageMove(int n);
 
+	void Excute();
+
+	bool IsCheck();
+
+	void UpgradeSuccess();
+	void UpgradeFail();
+
 private:
 	Plane* owner;
 
@@ -52,5 +59,8 @@ private:
 	vector<pair<Item*, int>> items;
 	vector<pair<Item*, int>> synthesisItems;
 
+	Button* synthesisBtn;
+
+	int checkKey = 0;
 
 };

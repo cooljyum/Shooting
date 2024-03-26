@@ -15,6 +15,7 @@ Synthesis::~Synthesis()
 	delete closeBtn;
 	delete nextBtn;
 	delete prevBtn;
+	delete synthesisBtn;
 
 	for (Button* itemSlot : itemSlots)
 	{
@@ -38,6 +39,7 @@ void Synthesis::Update()
 	closeBtn->Update();
 	nextBtn->Update();
 	prevBtn->Update();
+	synthesisBtn->Update();
 
 	for (Button* itemSlot : itemSlots)
 	{
@@ -63,6 +65,8 @@ void Synthesis::PostRender()
 	closeBtn->PostRender();
 	nextBtn->PostRender();
 	prevBtn->PostRender();
+
+	synthesisBtn->PostRender();
 
 	int start = (page - 1) * 6;
 	int end = items.size() < start + 6 ? items.size() : start + 6;
@@ -100,6 +104,7 @@ void Synthesis::SetActive(bool isActive)
 	closeBtn->SetActive(isActive);
 	nextBtn->SetActive(isActive);
 	prevBtn->SetActive(isActive);
+	synthesisBtn->SetActive(isActive);
 
 	FOR(6)
 	{
@@ -181,6 +186,10 @@ void Synthesis::CreateInven()
 
 	prevBtn = new Button(L"Resources/Textures/Shooting3/UI/prevBtn.png", { CENTER_X - 150.0f , 40.0f }, false);
 	prevBtn->SetEvent([this]() { PageMove(-1); });
+
+	synthesisBtn = new Button(L"Resources/Textures/Shooting3/UI/SynthesisBtn.png", { 710.0f, 850.0f }, false);
+	synthesisBtn->SetEvent([this]() { Excute();  });
+
 
 	FOR(6)
 	{
@@ -323,4 +332,60 @@ void Synthesis::PageMove(int n)
 
 	page += n;
 	UpdateSlot();
+}
+
+void Synthesis::Excute()
+{
+	//1. items안에 있는 아이템의 키값이 다 같은지 체크
+	//2. 실패든 성공이든 일단 무조껀 조합창 아이템 다 빼기
+	//3. 성공->인벤토리 있는 아이템 다 감소시키고 레벨 1높은 아이템 획득    
+	//4. 실패면 인벤토리 창에 아이템 카운트 증가
+
+	FOR(synthesisItems.size())
+	{
+		Item* item = synthesisItems[i].first;
+		AddItem(item, 1);
+		synthesisSlots[i]->SetFrontImgActive(false);
+	}
+	
+
+	if (IsCheck())
+		UpgradeSuccess();
+	else
+		UpgradeFail();
+
+	synthesisItems.clear();
+}
+
+bool Synthesis::IsCheck()
+{
+	//if (count < items.size())
+	//	return false;
+
+	FOR(items.size())
+	{
+		Item* item = items[i].first;
+		checkKey = item->GetData().key;
+		if (item->GetData().key != checkKey)
+			return false;
+	}
+
+	return true;
+}
+
+void Synthesis::UpgradeSuccess()
+{
+	//Inventory* inventory = (Inventory*)GetParent();
+
+	//inventory->CreateItem(checkKey + 1, 1);
+
+	//count = 0;
+
+	//inventory->Clear();
+}
+
+void Synthesis::UpgradeFail()
+{
+//	for (Item* item : items)
+	//	RemoveItem(item);
 }
