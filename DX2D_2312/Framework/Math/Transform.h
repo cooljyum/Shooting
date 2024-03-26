@@ -24,6 +24,8 @@ public:
 
 	string GetTag() { return tag; }	
 
+	Transform* GetParent() { return parent; }
+
 	void SetLocalPosition(Vector2 pos) { localPosition = pos; }
 	void SetLocalPosition(float x, float y) { localPosition = { x, y }; }
 	void SetLocalRotation(float x, float y, float z) { localRotation = { x, y, z }; }

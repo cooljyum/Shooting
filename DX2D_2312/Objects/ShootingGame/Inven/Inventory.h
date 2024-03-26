@@ -21,6 +21,8 @@ public:
 
 	void PageMove(int n);
 
+	void CreateItem(int key, int count);
+
 private:
 	virtual void CreateInven();
 

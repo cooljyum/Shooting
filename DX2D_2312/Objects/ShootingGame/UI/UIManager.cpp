@@ -12,6 +12,8 @@ UIManager::UIManager()
 	inven = new Inventory();
 
 	synthesis = new Synthesis();
+
+	synthesis->SetParent(inven);
 }
 
 UIManager::~UIManager()

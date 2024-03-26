@@ -15,6 +15,8 @@ public:
 
 	static bool Compare(GameObject* obj1, GameObject* obj2);
 
+	Material* GetMaterial() { return material; }
+
 protected:
 	int depth = 0;
 

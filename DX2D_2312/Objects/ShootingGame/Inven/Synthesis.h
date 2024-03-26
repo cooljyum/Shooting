@@ -1,6 +1,6 @@
 #pragma once
 
-class Synthesis
+class Synthesis : public Panel
 {
 public:
 	Synthesis();

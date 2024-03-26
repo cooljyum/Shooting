@@ -16,6 +16,11 @@ public:
 	Texture* GetTexture() { return texture; }
 	ColorBuffer* GetColor() { return colorBuffer; }
 
+	void SetColor(float r, float g, float b, float a = 1.0f)
+	{
+		colorBuffer->SetColor(r, g, b, a);
+	}
+
 private:
 	VertexShader* vertexShader;
 	PixelShader* pixelShader;

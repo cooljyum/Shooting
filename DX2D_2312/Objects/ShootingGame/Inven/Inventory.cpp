@@ -151,6 +151,19 @@ void Inventory::PageMove(int n)
 	UpdateSlot();
 }
 
+void Inventory::CreateItem(int key, int count)
+{
+	Item* item = ItemManager::Get()->Pop("Armor");
+	ObjectManager::Get()->Add(item);
+	ItemData data = ShootingDataManager::Get()->GetItemData(key);
+	//item->Spawn({}, data);
+	//item->AddCount(count - 1);
+
+
+	AddItem(item);
+
+}
+
 void Inventory::AddEquipItem(int type, Item* item, int cnt)
 {
 	if (type > 3 || type < 0) return;

@@ -1,6 +1,6 @@
 #include "Framework.h"
 
-Synthesis::Synthesis()
+Synthesis::Synthesis() : Panel(L"Resources/Textures/Shooting3/UI/toggle_bg.png")
 {
 	CreateInven();
 
@@ -348,7 +348,6 @@ void Synthesis::Excute()
 		synthesisSlots[i]->SetFrontImgActive(false);
 	}
 	
-
 	if (IsCheck())
 		UpgradeSuccess();
 	else
@@ -361,11 +360,11 @@ bool Synthesis::IsCheck()
 {
 	//if (count < items.size())
 	//	return false;
+	checkKey = synthesisItems[0].first->GetData().key;
 
-	FOR(items.size())
+	FOR(synthesisItems.size())
 	{
-		Item* item = items[i].first;
-		checkKey = item->GetData().key;
+		Item* item = synthesisItems[i].first;
 		if (item->GetData().key != checkKey)
 			return false;
 	}
@@ -375,9 +374,9 @@ bool Synthesis::IsCheck()
 
 void Synthesis::UpgradeSuccess()
 {
-	//Inventory* inventory = (Inventory*)GetParent();
+	Inventory* inventory = (Inventory*)GetParent();
 
-	//inventory->CreateItem(checkKey + 1, 1);
+	inventory->CreateItem(checkKey + 1,1);
 
 	//count = 0;
 

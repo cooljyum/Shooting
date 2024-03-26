@@ -30,6 +30,25 @@ void Item::Render()
 {
 	Quad::Render();
 	collider->Render();
+
+	switch (data.level)
+	{
+	case 1:
+		material->SetColor(1, 1, 1);
+		break;
+	case 2:
+		material->SetColor(1, 1, 0);
+		break;
+	case 3:
+		material->SetColor(0, 1, 0);
+		break;
+	case 4:
+		material->SetColor(0, 1, 1);
+		break;
+	case 5:
+		material->SetColor(1, 0, 0);
+		break;
+	}
 }
 
 void Item::Spawn(const Vector2& pos)
